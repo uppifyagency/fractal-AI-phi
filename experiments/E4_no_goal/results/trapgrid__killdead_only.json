@@ -1,0 +1,1085 @@
+{
+  "env": "trapgrid",
+  "arm": "killdead_only",
+  "kind": "fmc",
+  "n": 50,
+  "max_steps": 60,
+  "fuel": 24.0,
+  "config": {
+    "N": 32,
+    "M": 10,
+    "beta": 1.0,
+    "alpha": 0.0,
+    "gamma": 1e-12,
+    "phi_m": 4,
+    "phi_h": 3,
+    "phi_every": 1,
+    "budget_attr": "fuel",
+    "budget_max": 24.0
+  },
+  "wall_seconds": 11.16,
+  "episodes": [
+    {
+      "arm": "killdead_only",
+      "seed": 0,
+      "outcome": "trap",
+      "steps": 31,
+      "sim_steps": 128960,
+      "total_reward": -369.0,
+      "mean_b_eff": 2.9082251988555616,
+      "mean_phi": 0.7324895359229409,
+      "cells_visited": 10,
+      "min_goal_dist": 10,
+      "final_goal_dist": 10,
+      "frac_steps_in_goal_region": 0.0,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 1,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -351.0,
+      "mean_b_eff": 2.852542773123375,
+      "mean_phi": 0.8427992537743639,
+      "cells_visited": 9,
+      "min_goal_dist": 11,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 2,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -301.0,
+      "mean_b_eff": 2.9616829826415305,
+      "mean_phi": 0.8082622882370115,
+      "cells_visited": 11,
+      "min_goal_dist": 9,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 3,
+      "outcome": "fuel",
+      "steps": 26,
+      "sim_steps": 108160,
+      "total_reward": -246.0,
+      "mean_b_eff": 2.897109340779873,
+      "mean_phi": 0.8786103389187436,
+      "cells_visited": 14,
+      "min_goal_dist": 6,
+      "final_goal_dist": 8,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 4,
+      "outcome": "fuel",
+      "steps": 26,
+      "sim_steps": 108160,
+      "total_reward": -294.0,
+      "mean_b_eff": 2.851669339271621,
+      "mean_phi": 0.7526015527357013,
+      "cells_visited": 14,
+      "min_goal_dist": 8,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 5,
+      "outcome": "fuel",
+      "steps": 29,
+      "sim_steps": 120640,
+      "total_reward": -340.0,
+      "mean_b_eff": 2.9413522525352174,
+      "mean_phi": 0.7638133598703196,
+      "cells_visited": 13,
+      "min_goal_dist": 9,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 6,
+      "outcome": "fuel",
+      "steps": 31,
+      "sim_steps": 128960,
+      "total_reward": -368.0,
+      "mean_b_eff": 2.901566171680001,
+      "mean_phi": 0.797764627428078,
+      "cells_visited": 10,
+      "min_goal_dist": 10,
+      "final_goal_dist": 10,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 7,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -320.0,
+      "mean_b_eff": 2.7050729934260227,
+      "mean_phi": 0.8507380796313461,
+      "cells_visited": 11,
+      "min_goal_dist": 10,
+      "final_goal_dist": 10,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 8,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -268.0,
+      "mean_b_eff": 2.733240125737996,
+      "mean_phi": 0.8136280555598865,
+      "cells_visited": 14,
+      "min_goal_dist": 7,
+      "final_goal_dist": 7,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 9,
+      "outcome": "fuel",
+      "steps": 26,
+      "sim_steps": 108160,
+      "total_reward": -286.0,
+      "mean_b_eff": 2.725351037687595,
+      "mean_phi": 0.7738851471062753,
+      "cells_visited": 10,
+      "min_goal_dist": 9,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 10,
+      "outcome": "fuel",
+      "steps": 32,
+      "sim_steps": 133120,
+      "total_reward": -406.0,
+      "mean_b_eff": 3.013581690446498,
+      "mean_phi": 0.7473970527097857,
+      "cells_visited": 11,
+      "min_goal_dist": 10,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 11,
+      "outcome": "fuel",
+      "steps": 31,
+      "sim_steps": 128960,
+      "total_reward": -335.0,
+      "mean_b_eff": 2.742793411902735,
+      "mean_phi": 0.8672079292148893,
+      "cells_visited": 12,
+      "min_goal_dist": 6,
+      "final_goal_dist": 6,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 12,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -299.0,
+      "mean_b_eff": 2.979744025564191,
+      "mean_phi": 0.8213417050237237,
+      "cells_visited": 13,
+      "min_goal_dist": 9,
+      "final_goal_dist": 9,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 13,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -342.0,
+      "mean_b_eff": 2.941136850687354,
+      "mean_phi": 0.8324145797819893,
+      "cells_visited": 9,
+      "min_goal_dist": 10,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 14,
+      "outcome": "fuel",
+      "steps": 29,
+      "sim_steps": 120640,
+      "total_reward": -328.0,
+      "mean_b_eff": 3.0039722068384647,
+      "mean_phi": 0.880491809481759,
+      "cells_visited": 9,
+      "min_goal_dist": 10,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 15,
+      "outcome": "fuel",
+      "steps": 29,
+      "sim_steps": 120640,
+      "total_reward": -368.0,
+      "mean_b_eff": 2.904559427452671,
+      "mean_phi": 0.7037845271051175,
+      "cells_visited": 12,
+      "min_goal_dist": 10,
+      "final_goal_dist": 14,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 16,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -339.0,
+      "mean_b_eff": 2.806073367728771,
+      "mean_phi": 0.807122945436624,
+      "cells_visited": 10,
+      "min_goal_dist": 10,
+      "final_goal_dist": 14,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 17,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -335.0,
+      "mean_b_eff": 2.710851039993457,
+      "mean_phi": 0.7087572773521867,
+      "cells_visited": 9,
+      "min_goal_dist": 10,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 18,
+      "outcome": "trap",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -272.0,
+      "mean_b_eff": 2.8170838277605856,
+      "mean_phi": 0.8690038087944193,
+      "cells_visited": 13,
+      "min_goal_dist": 7,
+      "final_goal_dist": 7,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 19,
+      "outcome": "fuel",
+      "steps": 31,
+      "sim_steps": 128960,
+      "total_reward": -366.0,
+      "mean_b_eff": 2.907441511423773,
+      "mean_phi": 0.7642170824181209,
+      "cells_visited": 11,
+      "min_goal_dist": 8,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 20,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -315.0,
+      "mean_b_eff": 2.981630233244433,
+      "mean_phi": 0.797367987649621,
+      "cells_visited": 11,
+      "min_goal_dist": 10,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 21,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -340.0,
+      "mean_b_eff": 2.8875977340383083,
+      "mean_phi": 0.7285635862399997,
+      "cells_visited": 10,
+      "min_goal_dist": 10,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 22,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -305.0,
+      "mean_b_eff": 3.019126023845734,
+      "mean_phi": 0.8386916850623796,
+      "cells_visited": 13,
+      "min_goal_dist": 9,
+      "final_goal_dist": 10,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 23,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -308.0,
+      "mean_b_eff": 2.9395423899352457,
+      "mean_phi": 0.8598880145224264,
+      "cells_visited": 12,
+      "min_goal_dist": 8,
+      "final_goal_dist": 9,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 24,
+      "outcome": "fuel",
+      "steps": 29,
+      "sim_steps": 120640,
+      "total_reward": -370.0,
+      "mean_b_eff": 2.7532470965962506,
+      "mean_phi": 0.8659259202754291,
+      "cells_visited": 9,
+      "min_goal_dist": 11,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 25,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -326.0,
+      "mean_b_eff": 2.7120751352614287,
+      "mean_phi": 0.6873847563901941,
+      "cells_visited": 10,
+      "min_goal_dist": 9,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 26,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -355.0,
+      "mean_b_eff": 2.823610700414173,
+      "mean_phi": 0.7477853077424125,
+      "cells_visited": 9,
+      "min_goal_dist": 10,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 27,
+      "outcome": "fuel",
+      "steps": 30,
+      "sim_steps": 124800,
+      "total_reward": -391.0,
+      "mean_b_eff": 2.7772350132982613,
+      "mean_phi": 0.7330048904535802,
+      "cells_visited": 9,
+      "min_goal_dist": 11,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 28,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -314.0,
+      "mean_b_eff": 3.057399872892433,
+      "mean_phi": 0.7862617509177269,
+      "cells_visited": 13,
+      "min_goal_dist": 8,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 29,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -351.0,
+      "mean_b_eff": 2.7779864417670304,
+      "mean_phi": 0.8352813053853575,
+      "cells_visited": 10,
+      "min_goal_dist": 10,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 30,
+      "outcome": "fuel",
+      "steps": 29,
+      "sim_steps": 120640,
+      "total_reward": -369.0,
+      "mean_b_eff": 2.8483919745154096,
+      "mean_phi": 0.7458027148992812,
+      "cells_visited": 8,
+      "min_goal_dist": 11,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 31,
+      "outcome": "fuel",
+      "steps": 33,
+      "sim_steps": 137280,
+      "total_reward": -437.0,
+      "mean_b_eff": 2.8632843350883985,
+      "mean_phi": 0.6821305498436405,
+      "cells_visited": 5,
+      "min_goal_dist": 11,
+      "final_goal_dist": 14,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 32,
+      "outcome": "fuel",
+      "steps": 31,
+      "sim_steps": 128960,
+      "total_reward": -406.0,
+      "mean_b_eff": 2.81831991569233,
+      "mean_phi": 0.770611701323495,
+      "cells_visited": 8,
+      "min_goal_dist": 11,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 33,
+      "outcome": "fuel",
+      "steps": 26,
+      "sim_steps": 108160,
+      "total_reward": -278.0,
+      "mean_b_eff": 3.0352980789923008,
+      "mean_phi": 0.8165580806280368,
+      "cells_visited": 11,
+      "min_goal_dist": 8,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 34,
+      "outcome": "fuel",
+      "steps": 25,
+      "sim_steps": 104000,
+      "total_reward": -184.0,
+      "mean_b_eff": 3.011761796617879,
+      "mean_phi": 0.7742742834555227,
+      "cells_visited": 15,
+      "min_goal_dist": 3,
+      "final_goal_dist": 4,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 35,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -276.0,
+      "mean_b_eff": 2.7382998846735234,
+      "mean_phi": 0.8932374876171567,
+      "cells_visited": 15,
+      "min_goal_dist": 7,
+      "final_goal_dist": 8,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 36,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -332.0,
+      "mean_b_eff": 2.7640397524918403,
+      "mean_phi": 0.8253659820748883,
+      "cells_visited": 12,
+      "min_goal_dist": 10,
+      "final_goal_dist": 13,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 37,
+      "outcome": "fuel",
+      "steps": 32,
+      "sim_steps": 133120,
+      "total_reward": -392.0,
+      "mean_b_eff": 2.784529826843684,
+      "mean_phi": 0.7546331022978905,
+      "cells_visited": 9,
+      "min_goal_dist": 11,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 38,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -320.0,
+      "mean_b_eff": 2.8561114964918994,
+      "mean_phi": 0.7743530359192127,
+      "cells_visited": 8,
+      "min_goal_dist": 10,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 39,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -267.0,
+      "mean_b_eff": 2.9402105490188575,
+      "mean_phi": 0.9229034472594904,
+      "cells_visited": 12,
+      "min_goal_dist": 7,
+      "final_goal_dist": 10,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 40,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -280.0,
+      "mean_b_eff": 2.925014108650046,
+      "mean_phi": 0.8160564929357782,
+      "cells_visited": 12,
+      "min_goal_dist": 8,
+      "final_goal_dist": 8,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 41,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -307.0,
+      "mean_b_eff": 2.7434324426789147,
+      "mean_phi": 0.8198060366022683,
+      "cells_visited": 10,
+      "min_goal_dist": 9,
+      "final_goal_dist": 9,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 42,
+      "outcome": "fuel",
+      "steps": 26,
+      "sim_steps": 108160,
+      "total_reward": -262.0,
+      "mean_b_eff": 3.015666917608379,
+      "mean_phi": 0.855111390648267,
+      "cells_visited": 13,
+      "min_goal_dist": 7,
+      "final_goal_dist": 8,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 43,
+      "outcome": "fuel",
+      "steps": 26,
+      "sim_steps": 108160,
+      "total_reward": -310.0,
+      "mean_b_eff": 2.6364048918181564,
+      "mean_phi": 0.838594571264526,
+      "cells_visited": 8,
+      "min_goal_dist": 11,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 44,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -274.0,
+      "mean_b_eff": 2.7648259441888774,
+      "mean_phi": 0.802172832009839,
+      "cells_visited": 13,
+      "min_goal_dist": 7,
+      "final_goal_dist": 9,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 45,
+      "outcome": "fuel",
+      "steps": 33,
+      "sim_steps": 137280,
+      "total_reward": -398.0,
+      "mean_b_eff": 2.6908874646798395,
+      "mean_phi": 0.7176075037561597,
+      "cells_visited": 11,
+      "min_goal_dist": 10,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 46,
+      "outcome": "trap",
+      "steps": 25,
+      "sim_steps": 104000,
+      "total_reward": -286.0,
+      "mean_b_eff": 3.157518282190965,
+      "mean_phi": 0.8892304950267759,
+      "cells_visited": 11,
+      "min_goal_dist": 9,
+      "final_goal_dist": 9,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 47,
+      "outcome": "fuel",
+      "steps": 27,
+      "sim_steps": 112320,
+      "total_reward": -279.0,
+      "mean_b_eff": 3.0023147565996067,
+      "mean_phi": 0.7767488901437019,
+      "cells_visited": 16,
+      "min_goal_dist": 7,
+      "final_goal_dist": 7,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 48,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -219.0,
+      "mean_b_eff": 2.7855639404765395,
+      "mean_phi": 0.854756577239504,
+      "cells_visited": 17,
+      "min_goal_dist": 4,
+      "final_goal_dist": 6,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "killdead_only",
+      "seed": 49,
+      "outcome": "fuel",
+      "steps": 28,
+      "sim_steps": 116480,
+      "total_reward": -323.0,
+      "mean_b_eff": 2.624162894626399,
+      "mean_phi": 0.7622199857934361,
+      "cells_visited": 11,
+      "min_goal_dist": 10,
+      "final_goal_dist": 11,
+      "frac_steps_in_goal_region": 0.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "trapgrid__a0g1": {
+    "seeds": 10,
+    "real_steps": 310,
+    "charged": 1289600,
+    "actual_planning_calls": 1002074,
+    "actual_over_charged": 0.777,
+    "charged_per_real_step": 4160.0,
+    "actual_per_real_step": 3232.5
+  },
+  "trapgrid__killdead_only": {
+    "seeds": 10,
+    "real_steps": 278,
+    "charged": 1156480,
+    "actual_planning_calls": 844202,
+    "actual_over_charged": 0.73,
+    "charged_per_real_step": 4160.0,
+    "actual_per_real_step": 3036.7
+  },
+  "trapgrid__a0g0_eq": {
+    "seeds": 10,
+    "real_steps": 225,
+    "charged": 936000,
+    "actual_planning_calls": 936000,
+    "actual_over_charged": 1.0,
+    "charged_per_real_step": 4160.0,
+    "actual_per_real_step": 4160.0
+  },
+  "funnel__a0g1": {
+    "seeds": 10,
+    "real_steps": 269,
+    "charged": 1119040,
+    "actual_planning_calls": 836915,
+    "actual_over_charged": 0.7479,
+    "charged_per_real_step": 4160.0,
+    "actual_per_real_step": 3111.2
+  },
+  "funnel__killdead_only": {
+    "seeds": 10,
+    "real_steps": 240,
+    "charged": 998400,
+    "actual_planning_calls": 691807,
+    "actual_over_charged": 0.6929,
+    "charged_per_real_step": 4160.0,
+    "actual_per_real_step": 2882.5
+  },
+  "funnel__a0g0_eq": {
+    "seeds": 10,
+    "real_steps": 217,
+    "charged": 902720,
+    "actual_planning_calls": 902720,
+    "actual_over_charged": 1.0,
+    "charged_per_real_step": 4160.0,
+    "actual_per_real_step": 4160.0
+  }
+}

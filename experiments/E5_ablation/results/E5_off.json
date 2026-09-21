@@ -1,0 +1,686 @@
+{
+  "arm": "off",
+  "mode": "off",
+  "gamma": 0.0,
+  "N": 32,
+  "note": "canonical FMC, gamma=0, equal N",
+  "n": 30,
+  "seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029
+  ],
+  "env": {
+    "kind": "TrapGrid",
+    "fuel": 24.0,
+    "width": 12,
+    "height": 4,
+    "max_steps": 60
+  },
+  "config": {
+    "M": 10,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "phi_m": 4,
+    "phi_h": 3,
+    "phi_every": 1,
+    "budget_attr": null,
+    "budget_max": 1.0
+  },
+  "wall_seconds": 0.08062076568603516,
+  "episodes": [
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 2.209402711943677,
+      "mean_phi": NaN,
+      "mean_ess": 17.549194133761233,
+      "actual_steps": 640,
+      "seed": 1000,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.3649655016647284,
+      "mean_phi": NaN,
+      "mean_ess": 17.27738488119426,
+      "actual_steps": 320,
+      "seed": 1001,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.6679356965569503,
+      "mean_phi": NaN,
+      "mean_ess": 18.687553571039317,
+      "actual_steps": 320,
+      "seed": 1002,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.0,
+      "mean_phi": NaN,
+      "mean_ess": 17.568362895134,
+      "actual_steps": 320,
+      "seed": 1003,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 1.8482559674404722,
+      "mean_phi": NaN,
+      "mean_ess": 17.054222471795335,
+      "actual_steps": 640,
+      "seed": 1004,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 1.2712456783075967,
+      "mean_phi": NaN,
+      "mean_ess": 18.02223844568169,
+      "actual_steps": 640,
+      "seed": 1005,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.9649456432116543,
+      "mean_phi": NaN,
+      "mean_ess": 18.485108702803167,
+      "actual_steps": 320,
+      "seed": 1006,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 4,
+      "total_reward": -44.0,
+      "sim_steps": 1280,
+      "mean_b_eff": 2.17456213887837,
+      "mean_phi": NaN,
+      "mean_ess": 17.723468042150202,
+      "actual_steps": 1280,
+      "seed": 1007,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 3,
+      "total_reward": -32.0,
+      "sim_steps": 960,
+      "mean_b_eff": 2.0287602602853743,
+      "mean_phi": NaN,
+      "mean_ess": 17.603128927021903,
+      "actual_steps": 960,
+      "seed": 1008,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.2633812503027273,
+      "mean_phi": NaN,
+      "mean_ess": 16.687685964682412,
+      "actual_steps": 320,
+      "seed": 1009,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.7547653506033232,
+      "mean_phi": NaN,
+      "mean_ess": 17.34115423616333,
+      "actual_steps": 320,
+      "seed": 1010,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 2.0621054704481576,
+      "mean_phi": NaN,
+      "mean_ess": 18.877427601538415,
+      "actual_steps": 640,
+      "seed": 1011,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.0,
+      "mean_phi": NaN,
+      "mean_ess": 18.450334817917742,
+      "actual_steps": 320,
+      "seed": 1012,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.6910021130734858,
+      "mean_phi": NaN,
+      "mean_ess": 19.685578761393977,
+      "actual_steps": 320,
+      "seed": 1013,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 2.220852458545072,
+      "mean_phi": NaN,
+      "mean_ess": 17.3701793920648,
+      "actual_steps": 320,
+      "seed": 1014,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 3,
+      "total_reward": -32.0,
+      "sim_steps": 960,
+      "mean_b_eff": 1.9229863463012826,
+      "mean_phi": NaN,
+      "mean_ess": 17.668140180564183,
+      "actual_steps": 960,
+      "seed": 1015,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 2.300136279498104,
+      "mean_phi": NaN,
+      "mean_ess": 17.84504089474595,
+      "actual_steps": 640,
+      "seed": 1016,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 2.2400024102770772,
+      "mean_phi": NaN,
+      "mean_ess": 15.035336489046363,
+      "actual_steps": 320,
+      "seed": 1017,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 7,
+      "total_reward": -71.0,
+      "sim_steps": 2240,
+      "mean_b_eff": 2.0003668365371294,
+      "mean_phi": NaN,
+      "mean_ess": 16.82518110678247,
+      "actual_steps": 2240,
+      "seed": 1018,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 1.6129570664977693,
+      "mean_phi": NaN,
+      "mean_ess": 17.17255058423025,
+      "actual_steps": 640,
+      "seed": 1019,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.0,
+      "mean_phi": NaN,
+      "mean_ess": 17.645502060361945,
+      "actual_steps": 320,
+      "seed": 1020,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.0,
+      "mean_phi": NaN,
+      "mean_ess": 15.964283578760059,
+      "actual_steps": 320,
+      "seed": 1021,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 2.185241956965101,
+      "mean_phi": NaN,
+      "mean_ess": 17.80336804412836,
+      "actual_steps": 640,
+      "seed": 1022,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.0,
+      "mean_phi": NaN,
+      "mean_ess": 17.58071553578229,
+      "actual_steps": 320,
+      "seed": 1023,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.589490554357095,
+      "mean_phi": NaN,
+      "mean_ess": 15.92905452966529,
+      "actual_steps": 320,
+      "seed": 1024,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.0,
+      "mean_phi": NaN,
+      "mean_ess": 14.768037971915748,
+      "actual_steps": 320,
+      "seed": 1025,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.3649655016647284,
+      "mean_phi": NaN,
+      "mean_ess": 16.253090170959496,
+      "actual_steps": 320,
+      "seed": 1026,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 1.4824728216058272,
+      "mean_phi": NaN,
+      "mean_ess": 15.639769627605759,
+      "actual_steps": 640,
+      "seed": 1027,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 640,
+      "mean_b_eff": 1.9649456432116543,
+      "mean_phi": NaN,
+      "mean_ess": 18.318715944500063,
+      "actual_steps": 640,
+      "seed": 1028,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "trap",
+      "steps": 1,
+      "total_reward": -10.0,
+      "sim_steps": 320,
+      "mean_b_eff": 1.3649655016647284,
+      "mean_phi": NaN,
+      "mean_ess": 17.58962570010366,
+      "actual_steps": 320,
+      "seed": 1029,
+      "sim_steps_per_decision": 320.0,
+      "actual_steps_per_decision": 320.0,
+      "actual_over_nominal": 1.0
+    }
+  ],
+  "aggregate": {
+    "goal_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "trap_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    "fuel_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "timeout_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "dead_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "steps": {
+      "mean": 1.7333333333333334,
+      "lo": 1.3333333333333333,
+      "hi": 2.2333333333333334
+    },
+    "sim_steps": {
+      "mean": 554.6666666666666,
+      "lo": 426.6666666666667,
+      "hi": 714.6666666666666
+    },
+    "actual_steps": {
+      "mean": 554.6666666666666,
+      "lo": 437.3333333333333,
+      "hi": 714.6666666666666
+    },
+    "mean_b_eff": {
+      "mean": 1.6516903719947362,
+      "lo": 1.4926443869830996,
+      "hi": 1.8057878188886793
+    },
+    "mean_phi": {
+      "mean": NaN,
+      "lo": NaN,
+      "hi": NaN
+    },
+    "mean_ess": {
+      "mean": 17.34738117544979,
+      "lo": 16.93997163326187,
+      "hi": 17.723813953610765
+    },
+    "total_reward": {
+      "mean": -17.933333333333334,
+      "lo": -22.933333333333334,
+      "hi": -13.7
+    },
+    "sim_steps_per_decision": {
+      "mean": 320.0,
+      "lo": 320.0,
+      "hi": 320.0
+    },
+    "actual_steps_per_decision": {
+      "mean": 320.0,
+      "lo": 320.0,
+      "hi": 320.0
+    },
+    "actual_over_nominal": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    }
+  },
+  "parity_check": {
+    "real": {
+      "seeds": [
+        7,
+        11,
+        13,
+        17,
+        23,
+        29,
+        31,
+        37
+      ],
+      "all_equal": true,
+      "rows": [
+        {
+          "seed": 7,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 11,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 13,
+          "e5_action": 4,
+          "planner_action": 4,
+          "equal": true
+        },
+        {
+          "seed": 17,
+          "e5_action": 2,
+          "planner_action": 2,
+          "equal": true
+        },
+        {
+          "seed": 23,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 29,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 31,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 37,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        }
+      ]
+    },
+    "off": {
+      "seeds": [
+        7,
+        11,
+        13,
+        17,
+        23,
+        29,
+        31,
+        37
+      ],
+      "all_equal": true,
+      "rows": [
+        {
+          "seed": 7,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 11,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 13,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 17,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 23,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 29,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 31,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 37,
+          "e5_action": 4,
+          "planner_action": 4,
+          "equal": true
+        }
+      ]
+    }
+  },
+  "python": "3.14.3"
+}

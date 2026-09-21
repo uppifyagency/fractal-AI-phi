@@ -1,0 +1,686 @@
+{
+  "arm": "mask_matched",
+  "mode": "mask",
+  "gamma": 1.0,
+  "N": 416,
+  "note": "arm B at equal nominal budget (N x13)",
+  "n": 30,
+  "seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029
+  ],
+  "env": {
+    "kind": "TrapGrid",
+    "fuel": 24.0,
+    "width": 12,
+    "height": 4,
+    "max_steps": 60
+  },
+  "config": {
+    "M": 10,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "phi_m": 4,
+    "phi_h": 3,
+    "phi_every": 1,
+    "budget_attr": null,
+    "budget_max": 1.0
+  },
+  "wall_seconds": 6.018913984298706,
+  "episodes": [
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.6033841780365097,
+      "mean_phi": 0.8755177514792898,
+      "mean_ess": 196.01521376021904,
+      "actual_steps": 54080,
+      "seed": 1000,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.519301719502918,
+      "mean_phi": 0.8733173076923078,
+      "mean_ess": 197.667178463804,
+      "actual_steps": 54080,
+      "seed": 1001,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 14,
+      "total_reward": -79.0,
+      "sim_steps": 58240,
+      "mean_b_eff": 2.6247025634659167,
+      "mean_phi": 0.8787603021978022,
+      "mean_ess": 198.2092809411247,
+      "actual_steps": 58240,
+      "seed": 1002,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 14,
+      "total_reward": -89.0,
+      "sim_steps": 58240,
+      "mean_b_eff": 2.4920951297543783,
+      "mean_phi": 0.8779704670329671,
+      "mean_ess": 201.96252760509444,
+      "actual_steps": 58240,
+      "seed": 1003,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.479259277895222,
+      "mean_phi": 0.8790310650887574,
+      "mean_ess": 197.65569960354975,
+      "actual_steps": 54080,
+      "seed": 1004,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.419125398663774,
+      "mean_phi": 0.8802884615384615,
+      "mean_ess": 198.77895751552134,
+      "actual_steps": 54080,
+      "seed": 1005,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.5164119634280473,
+      "mean_phi": 0.878439349112426,
+      "mean_ess": 196.94442660534412,
+      "actual_steps": 54080,
+      "seed": 1006,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.5232238089285697,
+      "mean_phi": 0.8798261834319528,
+      "mean_ess": 200.65364124812626,
+      "actual_steps": 54080,
+      "seed": 1007,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.401609820227872,
+      "mean_phi": 0.8807692307692307,
+      "mean_ess": 196.80344064176745,
+      "actual_steps": 54080,
+      "seed": 1008,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.5688780930797845,
+      "mean_phi": 0.8756841715976331,
+      "mean_ess": 196.80645127038954,
+      "actual_steps": 54080,
+      "seed": 1009,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.4740725388997458,
+      "mean_phi": 0.8779770710059172,
+      "mean_ess": 198.10108373547388,
+      "actual_steps": 54080,
+      "seed": 1010,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.3645245852140273,
+      "mean_phi": 0.879215976331361,
+      "mean_ess": 195.4841571445109,
+      "actual_steps": 54080,
+      "seed": 1011,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.463742751093274,
+      "mean_phi": 0.8779031065088757,
+      "mean_ess": 196.34413554580885,
+      "actual_steps": 54080,
+      "seed": 1012,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.422379243151821,
+      "mean_phi": 0.8784578402366864,
+      "mean_ess": 196.42118042829645,
+      "actual_steps": 54080,
+      "seed": 1013,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.6042401087922116,
+      "mean_phi": 0.8790495562130178,
+      "mean_ess": 199.19805020536674,
+      "actual_steps": 54080,
+      "seed": 1014,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.5287456651375355,
+      "mean_phi": 0.8762943786982249,
+      "mean_ess": 195.3004313008532,
+      "actual_steps": 54080,
+      "seed": 1015,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.3539286213323,
+      "mean_phi": 0.8776072485207099,
+      "mean_ess": 196.34804862002733,
+      "actual_steps": 54080,
+      "seed": 1016,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 14,
+      "total_reward": -89.0,
+      "sim_steps": 58240,
+      "mean_b_eff": 2.541981529700912,
+      "mean_phi": 0.8737465659340659,
+      "mean_ess": 196.44339785652755,
+      "actual_steps": 58240,
+      "seed": 1017,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.539001218582802,
+      "mean_phi": 0.8784023668639053,
+      "mean_ess": 199.74950088782268,
+      "actual_steps": 54080,
+      "seed": 1018,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.427642631005495,
+      "mean_phi": 0.8792714497041421,
+      "mean_ess": 200.48786061743385,
+      "actual_steps": 54080,
+      "seed": 1019,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.485913499807435,
+      "mean_phi": 0.8759245562130177,
+      "mean_ess": 197.473625481282,
+      "actual_steps": 54080,
+      "seed": 1020,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 15,
+      "total_reward": -100.0,
+      "sim_steps": 62400,
+      "mean_b_eff": 2.8361060337983224,
+      "mean_phi": 0.8730448717948718,
+      "mean_ess": 197.00226302570772,
+      "actual_steps": 62400,
+      "seed": 1021,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.477483221707924,
+      "mean_phi": 0.877292899408284,
+      "mean_ess": 194.9684475762442,
+      "actual_steps": 54080,
+      "seed": 1022,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.5452224195905986,
+      "mean_phi": 0.8756102071005916,
+      "mean_ess": 197.25475182499275,
+      "actual_steps": 54080,
+      "seed": 1023,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.5189161973669396,
+      "mean_phi": 0.8774408284023669,
+      "mean_ess": 199.34413992178617,
+      "actual_steps": 54080,
+      "seed": 1024,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 14,
+      "total_reward": -89.0,
+      "sim_steps": 58240,
+      "mean_b_eff": 2.694378200807798,
+      "mean_phi": 0.8738324175824176,
+      "mean_ess": 197.77256656462163,
+      "actual_steps": 58240,
+      "seed": 1025,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.4781894223216097,
+      "mean_phi": 0.876146449704142,
+      "mean_ess": 196.2618087856502,
+      "actual_steps": 54080,
+      "seed": 1026,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 13,
+      "total_reward": -78.0,
+      "sim_steps": 54080,
+      "mean_b_eff": 2.345404697137353,
+      "mean_phi": 0.8762019230769231,
+      "mean_ess": 197.6529497748745,
+      "actual_steps": 54080,
+      "seed": 1027,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 14,
+      "total_reward": -89.0,
+      "sim_steps": 58240,
+      "mean_b_eff": 2.583999256748757,
+      "mean_phi": 0.8760130494505496,
+      "mean_ess": 195.78863721411386,
+      "actual_steps": 58240,
+      "seed": 1028,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    },
+    {
+      "outcome": "goal",
+      "steps": 14,
+      "total_reward": -89.0,
+      "sim_steps": 58240,
+      "mean_b_eff": 2.6877577731868696,
+      "mean_phi": 0.8732829670329672,
+      "mean_ess": 196.6247891169186,
+      "actual_steps": 58240,
+      "seed": 1029,
+      "sim_steps_per_decision": 4160.0,
+      "actual_steps_per_decision": 4160.0,
+      "actual_over_nominal": 1.0
+    }
+  ],
+  "aggregate": {
+    "goal_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    "trap_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "fuel_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "timeout_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "dead_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "steps": {
+      "mean": 13.266666666666667,
+      "lo": 13.1,
+      "hi": 13.466666666666667
+    },
+    "sim_steps": {
+      "mean": 55189.333333333336,
+      "lo": 54496.0,
+      "hi": 56021.333333333336
+    },
+    "actual_steps": {
+      "mean": 55189.333333333336,
+      "lo": 54496.0,
+      "hi": 56021.333333333336
+    },
+    "mean_b_eff": {
+      "mean": 2.517387385612224,
+      "lo": 2.4816427606647777,
+      "hi": 2.555647953313024
+    },
+    "mean_phi": {
+      "mean": 0.8770773339907955,
+      "lo": 0.8763097081337466,
+      "hi": 0.8778480111768572
+    },
+    "mean_ess": {
+      "mean": 197.51728810944178,
+      "lo": 196.95143827470193,
+      "hi": 198.14124574230843
+    },
+    "total_reward": {
+      "mean": -80.6,
+      "lo": -82.76666666666667,
+      "hi": -78.76666666666667
+    },
+    "sim_steps_per_decision": {
+      "mean": 4160.0,
+      "lo": 4160.0,
+      "hi": 4160.0
+    },
+    "actual_steps_per_decision": {
+      "mean": 4160.0,
+      "lo": 4160.0,
+      "hi": 4160.0
+    },
+    "actual_over_nominal": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    }
+  },
+  "parity_check": {
+    "real": {
+      "seeds": [
+        7,
+        11,
+        13,
+        17,
+        23,
+        29,
+        31,
+        37
+      ],
+      "all_equal": true,
+      "rows": [
+        {
+          "seed": 7,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 11,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 13,
+          "e5_action": 4,
+          "planner_action": 4,
+          "equal": true
+        },
+        {
+          "seed": 17,
+          "e5_action": 2,
+          "planner_action": 2,
+          "equal": true
+        },
+        {
+          "seed": 23,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 29,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 31,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        },
+        {
+          "seed": 37,
+          "e5_action": 0,
+          "planner_action": 0,
+          "equal": true
+        }
+      ]
+    },
+    "off": {
+      "seeds": [
+        7,
+        11,
+        13,
+        17,
+        23,
+        29,
+        31,
+        37
+      ],
+      "all_equal": true,
+      "rows": [
+        {
+          "seed": 7,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 11,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 13,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 17,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 23,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 29,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 31,
+          "e5_action": 3,
+          "planner_action": 3,
+          "equal": true
+        },
+        {
+          "seed": 37,
+          "e5_action": 4,
+          "planner_action": 4,
+          "equal": true
+        }
+      ]
+    }
+  },
+  "python": "3.14.3"
+}

@@ -1,0 +1,916 @@
+{
+  "experiment": "E3 / review response re-runs",
+  "R1_p1_armB_nodeset_x_keymode": {
+    "full": {
+      "key_mode": "full",
+      "reps_per_node": 400,
+      "phi_m": 8,
+      "phi_h": 4,
+      "per_node": {
+        "bug": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.7918800090814758,
+            "ci95": [
+              0.7225764135774315,
+              0.8642142026050726
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.6832993080994975,
+            "ci95": [
+              0.630020286440518,
+              0.7386873142068479
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": 0.10858070098197832,
+            "ci95": [
+              0.07570778101687775,
+              0.14284296566597304
+            ],
+            "n": 400,
+            "frac_negative": 0.1025,
+            "frac_positive": 0.2975,
+            "frac_zero": 0.6,
+            "significant": true
+          }
+        },
+        "part1": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.6167080800143789,
+            "ci95": [
+              0.5588884677619733,
+              0.6784094709170327
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.7199006727479914,
+            "ci95": [
+              0.6634408533072361,
+              0.7785836149273567
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.10319259273361255,
+            "ci95": [
+              -0.1398104724861809,
+              -0.06711283748184958
+            ],
+            "n": 400,
+            "frac_negative": 0.37,
+            "frac_positive": 0.175,
+            "frac_zero": 0.455,
+            "significant": true
+          }
+        },
+        "refactored": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.7869782181137862,
+            "ci95": [
+              0.7212260841007286,
+              0.8554612364467845
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.6736585107897699,
+            "ci95": [
+              0.620658219754728,
+              0.7281145191885379
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": 0.11331970732401625,
+            "ci95": [
+              0.08649043602593551,
+              0.141235137545745
+            ],
+            "n": 400,
+            "frac_negative": 0.0675,
+            "frac_positive": 0.285,
+            "frac_zero": 0.6475,
+            "significant": true
+          }
+        },
+        "fixed": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.7670064987246243,
+            "ci95": [
+              0.7003828944236308,
+              0.8371804492285156
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.7599242849356983,
+            "ci95": [
+              0.6958265616076913,
+              0.8272116368885046
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": 0.007082213788925926,
+            "ci95": [
+              -0.024975698296321642,
+              0.039565071216389226
+            ],
+            "n": 400,
+            "frac_negative": 0.17,
+            "frac_positive": 0.18,
+            "frac_zero": 0.65,
+            "significant": false
+          }
+        },
+        "wrapped": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.6732456835044363,
+            "ci95": [
+              0.618710895942403,
+              0.7294475043064991
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.6173178514716039,
+            "ci95": [
+              0.5705250336223541,
+              0.6655418513676136
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": 0.05592783203283229,
+            "ci95": [
+              0.029896457250367547,
+              0.08335376330566643
+            ],
+            "n": 400,
+            "frac_negative": 0.1525,
+            "frac_positive": 0.24,
+            "frac_zero": 0.6075,
+            "significant": true
+          }
+        },
+        "broken": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.32861835370206904,
+            "ci95": [
+              0.29116186513119396,
+              0.3691172757737042
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.640272096361051,
+            "ci95": [
+              0.589849276350913,
+              0.6922900806398814
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.31165374265898194,
+            "ci95": [
+              -0.35224815411574134,
+              -0.27171833424122427
+            ],
+            "n": 400,
+            "frac_negative": 0.6725,
+            "frac_positive": 0.0825,
+            "frac_zero": 0.245,
+            "significant": true
+          }
+        }
+      },
+      "five_node_subset": {
+        "nodes": [
+          "bug",
+          "part1",
+          "refactored",
+          "fixed",
+          "wrapped"
+        ],
+        "phi_irreversible_available": {
+          "mean": 0.7271636978877403,
+          "ci95": [
+            0.6976774851532136,
+            0.7568313519695751
+          ],
+          "n": 2000
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6908201256089124,
+          "ci95": [
+            0.6659687544070804,
+            0.7155666403567231
+          ],
+          "n": 2000
+        },
+        "paired_diff_pooled_node_x_rep": {
+          "mean_diff": 0.03634357227882805,
+          "ci95": [
+            0.021871205222916135,
+            0.051048812204151535
+          ],
+          "n": 2000,
+          "frac_negative": 0.1725,
+          "frac_positive": 0.2355,
+          "frac_zero": 0.592,
+          "significant": true
+        },
+        "paired_diff_node_level": {
+          "mean": 0.03634357227882805,
+          "ci95": [
+            -0.038782972685986676,
+            0.09994572972896429
+          ],
+          "n": 5
+        },
+        "node_mean_diffs": {
+          "bug": 0.10858070098197832,
+          "part1": -0.10319259273361255,
+          "refactored": 0.11331970732401625,
+          "fixed": 0.007082213788925926,
+          "wrapped": 0.05592783203283229
+        }
+      },
+      "six_node_full": {
+        "nodes": [
+          "bug",
+          "part1",
+          "refactored",
+          "fixed",
+          "wrapped",
+          "broken"
+        ],
+        "phi_irreversible_available": {
+          "mean": 0.6607394738567951,
+          "ci95": [
+            0.634794667235057,
+            0.6865192153924239
+          ],
+          "n": 2400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.682395454067602,
+          "ci95": [
+            0.6596384368211488,
+            0.7055431605333593
+          ],
+          "n": 2400
+        },
+        "paired_diff_pooled_node_x_rep": {
+          "mean_diff": -0.021655980210806943,
+          "ci95": [
+            -0.03663991511880288,
+            -0.007341495149549718
+          ],
+          "n": 2400,
+          "frac_negative": 0.25583333333333336,
+          "frac_positive": 0.21,
+          "frac_zero": 0.5341666666666667,
+          "significant": true
+        },
+        "paired_diff_node_level": {
+          "mean": -0.021655980210806947,
+          "ci95": [
+            -0.1461595719143282,
+            0.08367864268195156
+          ],
+          "n": 6
+        },
+        "node_mean_diffs": {
+          "bug": 0.10858070098197832,
+          "part1": -0.10319259273361255,
+          "refactored": 0.11331970732401625,
+          "fixed": 0.007082213788925926,
+          "wrapped": 0.05592783203283229,
+          "broken": -0.31165374265898194
+        }
+      }
+    },
+    "content": {
+      "key_mode": "content",
+      "reps_per_node": 400,
+      "phi_m": 8,
+      "phi_h": 4,
+      "per_node": {
+        "bug": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.6726424246253877,
+            "ci95": [
+              0.6181941799268552,
+              0.7306964864506093
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.6832993080994975,
+            "ci95": [
+              0.630020286440518,
+              0.7386873142068479
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.010656883474109688,
+            "ci95": [
+              -0.03581192677601309,
+              0.014281125585096097
+            ],
+            "n": 400,
+            "frac_negative": 0.1325,
+            "frac_positive": 0.1075,
+            "frac_zero": 0.76,
+            "significant": false
+          }
+        },
+        "part1": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.5502213023651786,
+            "ci95": [
+              0.5024058094174012,
+              0.6005265385868984
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.7199006727479914,
+            "ci95": [
+              0.6634408533072361,
+              0.7785836149273567
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.16967937038281286,
+            "ci95": [
+              -0.2038838952490547,
+              -0.1363329582183813
+            ],
+            "n": 400,
+            "frac_negative": 0.4,
+            "frac_positive": 0.1025,
+            "frac_zero": 0.4975,
+            "significant": true
+          }
+        },
+        "refactored": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.6612056954629547,
+            "ci95": [
+              0.6101651535514878,
+              0.7139617132300276
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.6736585107897699,
+            "ci95": [
+              0.620658219754728,
+              0.7281145191885379
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.012452815326815157,
+            "ci95": [
+              -0.031379558531526575,
+              0.0058761926513151335
+            ],
+            "n": 400,
+            "frac_negative": 0.13,
+            "frac_positive": 0.1,
+            "frac_zero": 0.77,
+            "significant": false
+          }
+        },
+        "fixed": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.6867402285586997,
+            "ci95": [
+              0.6302171849948236,
+              0.745698541287918
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.7599242849356983,
+            "ci95": [
+              0.6958265616076913,
+              0.8272116368885046
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.07318405637699878,
+            "ci95": [
+              -0.1014533811695002,
+              -0.045913354636447204
+            ],
+            "n": 400,
+            "frac_negative": 0.22,
+            "frac_positive": 0.065,
+            "frac_zero": 0.715,
+            "significant": true
+          }
+        },
+        "wrapped": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.5507644067434911,
+            "ci95": [
+              0.5099536227630074,
+              0.5928501338036011
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.6173178514716039,
+            "ci95": [
+              0.5705250336223541,
+              0.6655418513676136
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.06655344472811282,
+            "ci95": [
+              -0.08706959266690148,
+              -0.04612296710677166
+            ],
+            "n": 400,
+            "frac_negative": 0.2325,
+            "frac_positive": 0.0575,
+            "frac_zero": 0.71,
+            "significant": true
+          }
+        },
+        "broken": {
+          "viable_treat": true,
+          "viable_ctrl": true,
+          "phi_irreversible_available": {
+            "mean": 0.293105136091073,
+            "ci95": [
+              0.2620627756139865,
+              0.3268304239631913
+            ],
+            "n": 400
+          },
+          "phi_irreversible_forbidden": {
+            "mean": 0.640272096361051,
+            "ci95": [
+              0.589849276350913,
+              0.6922900806398814
+            ],
+            "n": 400
+          },
+          "paired_diff": {
+            "mean_diff": -0.347166960269978,
+            "ci95": [
+              -0.3872451939403963,
+              -0.30817611668470624
+            ],
+            "n": 400,
+            "frac_negative": 0.695,
+            "frac_positive": 0.0425,
+            "frac_zero": 0.2625,
+            "significant": true
+          }
+        }
+      },
+      "five_node_subset": {
+        "nodes": [
+          "bug",
+          "part1",
+          "refactored",
+          "fixed",
+          "wrapped"
+        ],
+        "phi_irreversible_available": {
+          "mean": 0.6243148115511424,
+          "ci95": [
+            0.6007239952125315,
+            0.6481975394283656
+          ],
+          "n": 2000
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6908201256089124,
+          "ci95": [
+            0.6659687544070804,
+            0.7155666403567231
+          ],
+          "n": 2000
+        },
+        "paired_diff_pooled_node_x_rep": {
+          "mean_diff": -0.06650531405776985,
+          "ci95": [
+            -0.07803621018365224,
+            -0.05465345916966357
+          ],
+          "n": 2000,
+          "frac_negative": 0.223,
+          "frac_positive": 0.0865,
+          "frac_zero": 0.6905,
+          "significant": true
+        },
+        "paired_diff_node_level": {
+          "mean": -0.06650531405776985,
+          "ci95": [
+            -0.11893499657045051,
+            -0.022554568465992502
+          ],
+          "n": 5
+        },
+        "node_mean_diffs": {
+          "bug": -0.010656883474109688,
+          "part1": -0.16967937038281286,
+          "refactored": -0.012452815326815157,
+          "fixed": -0.07318405637699878,
+          "wrapped": -0.06655344472811282
+        }
+      },
+      "six_node_full": {
+        "nodes": [
+          "bug",
+          "part1",
+          "refactored",
+          "fixed",
+          "wrapped",
+          "broken"
+        ],
+        "phi_irreversible_available": {
+          "mean": 0.5691131989744641,
+          "ci95": [
+            0.5483862652238196,
+            0.5899897894255278
+          ],
+          "n": 2400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.682395454067602,
+          "ci95": [
+            0.6596384368211488,
+            0.7055431605333593
+          ],
+          "n": 2400
+        },
+        "paired_diff_pooled_node_x_rep": {
+          "mean_diff": -0.11328225509313788,
+          "ci95": [
+            -0.12574028383289593,
+            -0.10092188438480403
+          ],
+          "n": 2400,
+          "frac_negative": 0.3016666666666667,
+          "frac_positive": 0.07916666666666666,
+          "frac_zero": 0.6191666666666666,
+          "significant": true
+        },
+        "paired_diff_node_level": {
+          "mean": -0.11328225509313788,
+          "ci95": [
+            -0.2150310852079458,
+            -0.031591460402062045
+          ],
+          "n": 6
+        },
+        "node_mean_diffs": {
+          "bug": -0.010656883474109688,
+          "part1": -0.16967937038281286,
+          "refactored": -0.012452815326815157,
+          "fixed": -0.07318405637699878,
+          "wrapped": -0.06655344472811282,
+          "broken": -0.347166960269978
+        }
+      }
+    }
+  },
+  "R2_p2_paired_tests": {
+    "gamma1_cone_minus_gamma1_cone_slack/goal": {
+      "mean_diff": 0.13,
+      "ci95": [
+        0.02,
+        0.24
+      ],
+      "n": 100,
+      "frac_negative": 0.11,
+      "frac_positive": 0.24,
+      "frac_zero": 0.65,
+      "significant": true
+    },
+    "gamma1_cone_minus_gamma1_cone_slack/trap": {
+      "mean_diff": -0.09,
+      "ci95": [
+        -0.19,
+        0.01
+      ],
+      "n": 100,
+      "frac_negative": 0.18,
+      "frac_positive": 0.09,
+      "frac_zero": 0.73,
+      "significant": false
+    },
+    "gamma1_cone_minus_gamma1_cone_slack/steps": {
+      "mean_diff": -0.96,
+      "ci95": [
+        -1.84,
+        -0.07
+      ],
+      "n": 100,
+      "frac_negative": 0.52,
+      "frac_positive": 0.33,
+      "frac_zero": 0.15,
+      "significant": true
+    },
+    "gamma1_cone_minus_gamma1_phi_repo/goal": {
+      "mean_diff": 0.09,
+      "ci95": [
+        -0.03,
+        0.21
+      ],
+      "n": 100,
+      "frac_negative": 0.15,
+      "frac_positive": 0.24,
+      "frac_zero": 0.61,
+      "significant": false
+    },
+    "gamma1_cone_minus_gamma1_phi_repo/trap": {
+      "mean_diff": -0.06,
+      "ci95": [
+        -0.16,
+        0.03
+      ],
+      "n": 100,
+      "frac_negative": 0.15,
+      "frac_positive": 0.09,
+      "frac_zero": 0.76,
+      "significant": false
+    },
+    "gamma1_cone_minus_gamma1_phi_repo/steps": {
+      "mean_diff": -0.43,
+      "ci95": [
+        -1.49,
+        0.6
+      ],
+      "n": 100,
+      "frac_negative": 0.45,
+      "frac_positive": 0.45,
+      "frac_zero": 0.1,
+      "significant": false
+    },
+    "marginals": {
+      "gamma1_cone": {
+        "goal": {
+          "mean": 0.77,
+          "ci95": [
+            0.69,
+            0.85
+          ],
+          "n": 100
+        },
+        "trap": {
+          "mean": 0.13,
+          "ci95": [
+            0.07,
+            0.2
+          ],
+          "n": 100
+        },
+        "budget": {
+          "mean": 0.1,
+          "ci95": [
+            0.05,
+            0.16
+          ],
+          "n": 100
+        },
+        "steps": {
+          "mean": 6.11,
+          "ci95": [
+            5.42,
+            6.82
+          ],
+          "n": 100
+        }
+      },
+      "gamma1_cone_slack": {
+        "goal": {
+          "mean": 0.64,
+          "ci95": [
+            0.55,
+            0.73
+          ],
+          "n": 100
+        },
+        "trap": {
+          "mean": 0.22,
+          "ci95": [
+            0.14,
+            0.3
+          ],
+          "n": 100
+        },
+        "budget": {
+          "mean": 0.14,
+          "ci95": [
+            0.07,
+            0.21
+          ],
+          "n": 100
+        },
+        "steps": {
+          "mean": 7.07,
+          "ci95": [
+            6.32,
+            7.82
+          ],
+          "n": 100
+        }
+      },
+      "gamma1_phi_repo": {
+        "goal": {
+          "mean": 0.68,
+          "ci95": [
+            0.59,
+            0.77
+          ],
+          "n": 100
+        },
+        "trap": {
+          "mean": 0.19,
+          "ci95": [
+            0.12,
+            0.27
+          ],
+          "n": 100
+        },
+        "budget": {
+          "mean": 0.13,
+          "ci95": [
+            0.07,
+            0.2
+          ],
+          "n": 100
+        },
+        "steps": {
+          "mean": 6.54,
+          "ci95": [
+            5.84,
+            7.26
+          ],
+          "n": 100
+        }
+      }
+    }
+  },
+  "R3_force_push_share": {
+    "marginals": {
+      "gamma0_equal_budget": {
+        "irrev": {
+          "mean": 0.16,
+          "ci95": [
+            0.09,
+            0.24
+          ],
+          "n": 100
+        },
+        "force_push_count": {
+          "mean": 0.16,
+          "ci95": [
+            0.09,
+            0.24
+          ],
+          "n": 100
+        },
+        "force_push_share": {
+          "mean": 0.048095238095238094,
+          "ci95": [
+            0.025595238095238095,
+            0.07297916666666662
+          ],
+          "n": 100
+        },
+        "steps": {
+          "mean": 1.96,
+          "ci95": [
+            1.75,
+            2.2
+          ],
+          "n": 100
+        }
+      },
+      "gamma1_cone": {
+        "irrev": {
+          "mean": 0.97,
+          "ci95": [
+            0.75,
+            1.21
+          ],
+          "n": 100
+        },
+        "force_push_count": {
+          "mean": 0.97,
+          "ci95": [
+            0.75,
+            1.21
+          ],
+          "n": 100
+        },
+        "force_push_share": {
+          "mean": 0.13323043623043623,
+          "ci95": [
+            0.10566816239316242,
+            0.16159846264846264
+          ],
+          "n": 100
+        },
+        "steps": {
+          "mean": 6.11,
+          "ci95": [
+            5.42,
+            6.82
+          ],
+          "n": 100
+        }
+      }
+    },
+    "gamma1_cone_minus_gamma0/irrev": {
+      "mean_diff": 0.81,
+      "ci95": [
+        0.58,
+        1.06
+      ],
+      "n": 100,
+      "frac_negative": 0.04,
+      "frac_positive": 0.48,
+      "frac_zero": 0.48,
+      "significant": true
+    },
+    "gamma1_cone_minus_gamma0/force_push_share": {
+      "mean_diff": 0.08513519813519814,
+      "ci95": [
+        0.05077716033966035,
+        0.12053531468531464
+      ],
+      "n": 100,
+      "frac_negative": 0.11,
+      "frac_positive": 0.46,
+      "frac_zero": 0.43,
+      "significant": true
+    },
+    "gamma1_cone_minus_gamma0/force_push_count": {
+      "mean_diff": 0.81,
+      "ci95": [
+        0.58,
+        1.06
+      ],
+      "n": 100,
+      "frac_negative": 0.04,
+      "frac_positive": 0.48,
+      "frac_zero": 0.48,
+      "significant": true
+    },
+    "gamma1_cone_minus_gamma0/steps": {
+      "mean_diff": 4.15,
+      "ci95": [
+        3.41,
+        4.91
+      ],
+      "n": 100,
+      "frac_negative": 0.06,
+      "frac_positive": 0.86,
+      "frac_zero": 0.08,
+      "significant": true
+    }
+  },
+  "wall_clock_s": 8.97
+}

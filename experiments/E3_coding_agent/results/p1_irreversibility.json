@@ -1,0 +1,1104 @@
+{
+  "experiment": "E3 / P1 irreversibility",
+  "arm_A_static_git": {
+    "rows": [
+      {
+        "node": "bug",
+        "sha": "add3ccdeaa",
+        "branch": "main",
+        "published_real_git": true,
+        "phi_irreversible_pending": 0.4138210864928413,
+        "phi_reversible_pending": 0.8333333333333334,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "node": "part1",
+        "sha": "36bbb1dc69",
+        "branch": "part1",
+        "published_real_git": true,
+        "phi_irreversible_pending": 0.4138210864928413,
+        "phi_reversible_pending": 0.8333333333333334,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "node": "fixed",
+        "sha": "9b8b9004d4",
+        "branch": "fixed",
+        "published_real_git": false,
+        "phi_irreversible_pending": 0.443826500839081,
+        "phi_reversible_pending": 0.8333333333333334,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "node": "refactored",
+        "sha": "f800a81bec",
+        "branch": "refactored",
+        "published_real_git": false,
+        "phi_irreversible_pending": 0.443826500839081,
+        "phi_reversible_pending": 0.8333333333333334,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "node": "wrapped",
+        "sha": "1a88f1ea10",
+        "branch": "wrapped",
+        "published_real_git": false,
+        "phi_irreversible_pending": 0.443826500839081,
+        "phi_reversible_pending": 0.8333333333333334,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "node": "deleted",
+        "sha": "acd1b37e22",
+        "branch": "deleted",
+        "published_real_git": false,
+        "phi_irreversible_pending": 0.443826500839081,
+        "phi_reversible_pending": 0.8333333333333334,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "node": "broken",
+        "sha": "34a01e9f1e",
+        "branch": "broken",
+        "published_real_git": false,
+        "phi_irreversible_pending": 0.443826500839081,
+        "phi_reversible_pending": 0.8333333333333334,
+        "ops": [
+          "force-push"
+        ]
+      }
+    ],
+    "paired_diff": {
+      "mean_diff": -0.3980798080217495,
+      "ci95": [
+        -0.40665278354924655,
+        -0.38950683249425244
+      ],
+      "n": 7,
+      "frac_negative": 1.0,
+      "frac_positive": 0.0,
+      "frac_zero": 0.0,
+      "significant": true
+    },
+    "note": "true by construction; reports magnitude, not evidence"
+  },
+  "arm_A_classifier_table": {
+    "table": [
+      {
+        "command": "pytest -q",
+        "published": false,
+        "phi_irreversibility": 1.0,
+        "ops": []
+      },
+      {
+        "command": "pytest -q",
+        "published": true,
+        "phi_irreversibility": 1.0,
+        "ops": []
+      },
+      {
+        "command": "git add -A && git commit -m wip",
+        "published": false,
+        "phi_irreversibility": 1.0,
+        "ops": []
+      },
+      {
+        "command": "git add -A && git commit -m wip",
+        "published": true,
+        "phi_irreversibility": 1.0,
+        "ops": []
+      },
+      {
+        "command": "git push origin feature",
+        "published": false,
+        "phi_irreversibility": 1.0,
+        "ops": []
+      },
+      {
+        "command": "git push origin feature",
+        "published": true,
+        "phi_irreversibility": 1.0,
+        "ops": []
+      },
+      {
+        "command": "git push --force-with-lease origin feature",
+        "published": false,
+        "phi_irreversibility": 0.7557837414557255,
+        "ops": [
+          "force-push-with-lease"
+        ]
+      },
+      {
+        "command": "git push --force-with-lease origin feature",
+        "published": true,
+        "phi_irreversibility": 0.5712090638488149,
+        "ops": [
+          "force-push-with-lease"
+        ]
+      },
+      {
+        "command": "git push --force origin main",
+        "published": false,
+        "phi_irreversibility": 0.5325918010068972,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "command": "git push --force origin main",
+        "published": true,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "force-push"
+        ]
+      },
+      {
+        "command": "git commit --amend --no-edit",
+        "published": false,
+        "phi_irreversibility": 0.7557837414557255,
+        "ops": [
+          "amend"
+        ]
+      },
+      {
+        "command": "git commit --amend --no-edit",
+        "published": true,
+        "phi_irreversibility": 0.5712090638488149,
+        "ops": [
+          "amend"
+        ]
+      },
+      {
+        "command": "git rebase -i HEAD~3",
+        "published": false,
+        "phi_irreversibility": 0.7557837414557255,
+        "ops": [
+          "rebase"
+        ]
+      },
+      {
+        "command": "git rebase -i HEAD~3",
+        "published": true,
+        "phi_irreversibility": 0.5712090638488149,
+        "ops": [
+          "rebase"
+        ]
+      },
+      {
+        "command": "git reset --hard origin/main",
+        "published": false,
+        "phi_irreversibility": 0.6126263941844161,
+        "ops": [
+          "reset-hard"
+        ]
+      },
+      {
+        "command": "git reset --hard origin/main",
+        "published": true,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "reset-hard"
+        ]
+      },
+      {
+        "command": "rm -rf src/legacy",
+        "published": false,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "rm-rf"
+        ]
+      },
+      {
+        "command": "rm -rf src/legacy",
+        "published": true,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "rm-rf"
+        ]
+      },
+      {
+        "command": "psql -c 'ALTER TABLE users DROP COLUMN email'",
+        "published": false,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "drop-column"
+        ]
+      },
+      {
+        "command": "psql -c 'ALTER TABLE users DROP COLUMN email'",
+        "published": true,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "drop-column"
+        ]
+      },
+      {
+        "command": "npm publish",
+        "published": false,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "publish-package"
+        ]
+      },
+      {
+        "command": "npm publish",
+        "published": true,
+        "phi_irreversibility": 0.4965853037914095,
+        "ops": [
+          "publish-package"
+        ]
+      },
+      {
+        "command": "terraform apply -auto-approve",
+        "published": false,
+        "phi_irreversibility": 0.5712090638488149,
+        "ops": [
+          "terraform-apply"
+        ]
+      },
+      {
+        "command": "terraform apply -auto-approve",
+        "published": true,
+        "phi_irreversibility": 0.5712090638488149,
+        "ops": [
+          "terraform-apply"
+        ]
+      },
+      {
+        "command": "gh pr merge 42 --squash",
+        "published": false,
+        "phi_irreversibility": 0.6126263941844161,
+        "ops": [
+          "merge-pr"
+        ]
+      },
+      {
+        "command": "gh pr merge 42 --squash",
+        "published": true,
+        "phi_irreversibility": 0.6126263941844161,
+        "ops": [
+          "merge-pr"
+        ]
+      }
+    ]
+  },
+  "arm_B_mechanistic_key_full": {
+    "key_mode": "full",
+    "reps_per_node": 400,
+    "phi_m": 8,
+    "phi_h": 4,
+    "per_node": {
+      "bug": {
+        "phi_irreversible_available": {
+          "mean": 0.7918800090814758,
+          "ci95": [
+            0.7225764135774315,
+            0.8642142026050726
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6832993080994975,
+          "ci95": [
+            0.630020286440518,
+            0.7386873142068479
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": 0.10858070098197832,
+          "ci95": [
+            0.07570778101687775,
+            0.14284296566597304
+          ],
+          "n": 400,
+          "frac_negative": 0.1025,
+          "frac_positive": 0.2975,
+          "frac_zero": 0.6,
+          "significant": true
+        }
+      },
+      "part1": {
+        "phi_irreversible_available": {
+          "mean": 0.6167080800143789,
+          "ci95": [
+            0.5588884677619733,
+            0.6784094709170327
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.7199006727479914,
+          "ci95": [
+            0.6634408533072361,
+            0.7785836149273567
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.10319259273361255,
+          "ci95": [
+            -0.1398104724861809,
+            -0.06711283748184958
+          ],
+          "n": 400,
+          "frac_negative": 0.37,
+          "frac_positive": 0.175,
+          "frac_zero": 0.455,
+          "significant": true
+        }
+      },
+      "refactored": {
+        "phi_irreversible_available": {
+          "mean": 0.7869782181137862,
+          "ci95": [
+            0.7212260841007286,
+            0.8554612364467845
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6736585107897699,
+          "ci95": [
+            0.620658219754728,
+            0.7281145191885379
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": 0.11331970732401625,
+          "ci95": [
+            0.08649043602593551,
+            0.141235137545745
+          ],
+          "n": 400,
+          "frac_negative": 0.0675,
+          "frac_positive": 0.285,
+          "frac_zero": 0.6475,
+          "significant": true
+        }
+      },
+      "fixed": {
+        "phi_irreversible_available": {
+          "mean": 0.7670064987246243,
+          "ci95": [
+            0.7003828944236308,
+            0.8371804492285156
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.7599242849356983,
+          "ci95": [
+            0.6958265616076913,
+            0.8272116368885046
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": 0.007082213788925926,
+          "ci95": [
+            -0.024975698296321642,
+            0.039565071216389226
+          ],
+          "n": 400,
+          "frac_negative": 0.17,
+          "frac_positive": 0.18,
+          "frac_zero": 0.65,
+          "significant": false
+        }
+      },
+      "wrapped": {
+        "phi_irreversible_available": {
+          "mean": 0.6732456835044363,
+          "ci95": [
+            0.618710895942403,
+            0.7294475043064991
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6173178514716039,
+          "ci95": [
+            0.5705250336223541,
+            0.6655418513676136
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": 0.05592783203283229,
+          "ci95": [
+            0.029896457250367547,
+            0.08335376330566643
+          ],
+          "n": 400,
+          "frac_negative": 0.1525,
+          "frac_positive": 0.24,
+          "frac_zero": 0.6075,
+          "significant": true
+        }
+      }
+    },
+    "pooled": {
+      "phi_irreversible_available": {
+        "mean": 0.7271636978877403,
+        "ci95": [
+          0.6976774851532136,
+          0.7568313519695751
+        ],
+        "n": 2000
+      },
+      "phi_irreversible_forbidden": {
+        "mean": 0.6908201256089124,
+        "ci95": [
+          0.6659687544070804,
+          0.7155666403567231
+        ],
+        "n": 2000
+      },
+      "paired_diff": {
+        "mean_diff": 0.03634357227882805,
+        "ci95": [
+          0.021871205222916135,
+          0.051048812204151535
+        ],
+        "n": 2000,
+        "frac_negative": 0.1725,
+        "frac_positive": 0.2355,
+        "frac_zero": 0.592,
+        "significant": true
+      }
+    }
+  },
+  "arm_B_mechanistic_key_content": {
+    "key_mode": "content",
+    "reps_per_node": 400,
+    "phi_m": 8,
+    "phi_h": 4,
+    "per_node": {
+      "bug": {
+        "phi_irreversible_available": {
+          "mean": 0.6726424246253877,
+          "ci95": [
+            0.6181941799268552,
+            0.7306964864506093
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6832993080994975,
+          "ci95": [
+            0.630020286440518,
+            0.7386873142068479
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.010656883474109688,
+          "ci95": [
+            -0.03581192677601309,
+            0.014281125585096097
+          ],
+          "n": 400,
+          "frac_negative": 0.1325,
+          "frac_positive": 0.1075,
+          "frac_zero": 0.76,
+          "significant": false
+        }
+      },
+      "part1": {
+        "phi_irreversible_available": {
+          "mean": 0.5502213023651786,
+          "ci95": [
+            0.5024058094174012,
+            0.6005265385868984
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.7199006727479914,
+          "ci95": [
+            0.6634408533072361,
+            0.7785836149273567
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.16967937038281286,
+          "ci95": [
+            -0.2038838952490547,
+            -0.1363329582183813
+          ],
+          "n": 400,
+          "frac_negative": 0.4,
+          "frac_positive": 0.1025,
+          "frac_zero": 0.4975,
+          "significant": true
+        }
+      },
+      "refactored": {
+        "phi_irreversible_available": {
+          "mean": 0.6612056954629547,
+          "ci95": [
+            0.6101651535514878,
+            0.7139617132300276
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6736585107897699,
+          "ci95": [
+            0.620658219754728,
+            0.7281145191885379
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.012452815326815157,
+          "ci95": [
+            -0.031379558531526575,
+            0.0058761926513151335
+          ],
+          "n": 400,
+          "frac_negative": 0.13,
+          "frac_positive": 0.1,
+          "frac_zero": 0.77,
+          "significant": false
+        }
+      },
+      "fixed": {
+        "phi_irreversible_available": {
+          "mean": 0.6867402285586997,
+          "ci95": [
+            0.6302171849948236,
+            0.745698541287918
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.7599242849356983,
+          "ci95": [
+            0.6958265616076913,
+            0.8272116368885046
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.07318405637699878,
+          "ci95": [
+            -0.1014533811695002,
+            -0.045913354636447204
+          ],
+          "n": 400,
+          "frac_negative": 0.22,
+          "frac_positive": 0.065,
+          "frac_zero": 0.715,
+          "significant": true
+        }
+      },
+      "wrapped": {
+        "phi_irreversible_available": {
+          "mean": 0.5507644067434911,
+          "ci95": [
+            0.5099536227630074,
+            0.5928501338036011
+          ],
+          "n": 400
+        },
+        "phi_irreversible_forbidden": {
+          "mean": 0.6173178514716039,
+          "ci95": [
+            0.5705250336223541,
+            0.6655418513676136
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.06655344472811282,
+          "ci95": [
+            -0.08706959266690148,
+            -0.04612296710677166
+          ],
+          "n": 400,
+          "frac_negative": 0.2325,
+          "frac_positive": 0.0575,
+          "frac_zero": 0.71,
+          "significant": true
+        }
+      }
+    },
+    "pooled": {
+      "phi_irreversible_available": {
+        "mean": 0.6243148115511424,
+        "ci95": [
+          0.6007239952125315,
+          0.6481975394283656
+        ],
+        "n": 2000
+      },
+      "phi_irreversible_forbidden": {
+        "mean": 0.6908201256089124,
+        "ci95": [
+          0.6659687544070804,
+          0.7155666403567231
+        ],
+        "n": 2000
+      },
+      "paired_diff": {
+        "mean_diff": -0.06650531405776985,
+        "ci95": [
+          -0.07803621018365224,
+          -0.05465345916966357
+        ],
+        "n": 2000,
+        "frac_negative": 0.223,
+        "frac_positive": 0.0865,
+        "frac_zero": 0.6905,
+        "significant": true
+      }
+    }
+  },
+  "arm_C_posthoc_key_full": {
+    "key_mode": "full",
+    "per_node": {
+      "bug": {
+        "phi_history_rewritten": {
+          "mean": 0.645947682989568,
+          "ci95": [
+            0.5902217933595265,
+            0.7011845590379286
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.7625974802829241,
+          "ci95": [
+            0.697550438718476,
+            0.8302102785052041
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.11664979729335602,
+          "ci95": [
+            -0.14818161498137583,
+            -0.0855486315602408
+          ],
+          "n": 400,
+          "frac_negative": 0.27,
+          "frac_positive": 0.05,
+          "frac_zero": 0.68,
+          "significant": true
+        }
+      },
+      "part1": {
+        "phi_history_rewritten": {
+          "mean": 0.30112048310714984,
+          "ci95": [
+            0.26820215171794914,
+            0.33471696642317716
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.6151946984719776,
+          "ci95": [
+            0.5529485642137805,
+            0.6802667107012109
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.31407421536482777,
+          "ci95": [
+            -0.36194079778336397,
+            -0.26822313462909125
+          ],
+          "n": 400,
+          "frac_negative": 0.5825,
+          "frac_positive": 0.0525,
+          "frac_zero": 0.365,
+          "significant": true
+        }
+      },
+      "refactored": {
+        "phi_history_rewritten": {
+          "mean": 0.5116247229658396,
+          "ci95": [
+            0.4772921309915413,
+            0.5447509201743099
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.7800369758761181,
+          "ci95": [
+            0.7133240214648121,
+            0.8483877560056217
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.2684122529102786,
+          "ci95": [
+            -0.31062858977393865,
+            -0.2292156978710868
+          ],
+          "n": 400,
+          "frac_negative": 0.445,
+          "frac_positive": 0.01,
+          "frac_zero": 0.545,
+          "significant": true
+        }
+      },
+      "fixed": {
+        "phi_history_rewritten": {
+          "mean": 0.5623595400475253,
+          "ci95": [
+            0.5227313540316096,
+            0.6013775719024332
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.7549596100283449,
+          "ci95": [
+            0.6861374356420156,
+            0.8253221802333897
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.19260006998081963,
+          "ci95": [
+            -0.23536577140382262,
+            -0.15196865764678258
+          ],
+          "n": 400,
+          "frac_negative": 0.335,
+          "frac_positive": 0.065,
+          "frac_zero": 0.6,
+          "significant": true
+        }
+      },
+      "wrapped": {
+        "phi_history_rewritten": {
+          "mean": 0.311875,
+          "ci95": [
+            0.295,
+            0.328125
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.6686648064108581,
+          "ci95": [
+            0.6110370721293858,
+            0.7297746197350564
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.35678980641085806,
+          "ci95": [
+            -0.40217845223376947,
+            -0.31375995855248595
+          ],
+          "n": 400,
+          "frac_negative": 0.6125,
+          "frac_positive": 0.0,
+          "frac_zero": 0.3875,
+          "significant": true
+        }
+      },
+      "broken": {
+        "phi_history_rewritten": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.3092837220228901,
+          "ci95": [
+            0.27248701975634054,
+            0.34894350180269085
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.3092837220228901,
+          "ci95": [
+            -0.3477707066147563,
+            -0.2723061545321781
+          ],
+          "n": 400,
+          "frac_negative": 0.755,
+          "frac_positive": 0.0,
+          "frac_zero": 0.245,
+          "significant": true
+        }
+      }
+    },
+    "pooled": {
+      "phi_history_rewritten": {
+        "mean": 0.3888212381850138,
+        "ci95": [
+          0.37233411819384016,
+          0.4053142555591093
+        ],
+        "n": 2400
+      },
+      "phi_history_intact": {
+        "mean": 0.6484562155155188,
+        "ci95": [
+          0.6219807050447435,
+          0.6749022424368936
+        ],
+        "n": 2400
+      },
+      "paired_diff": {
+        "mean_diff": -0.25963497733050506,
+        "ci95": [
+          -0.27703074868045274,
+          -0.24271160668382424
+        ],
+        "n": 2400,
+        "frac_negative": 0.5,
+        "frac_positive": 0.029583333333333333,
+        "frac_zero": 0.47041666666666665,
+        "significant": true
+      }
+    }
+  },
+  "arm_C_posthoc_key_content": {
+    "key_mode": "content",
+    "per_node": {
+      "bug": {
+        "phi_history_rewritten": {
+          "mean": 0.645947682989568,
+          "ci95": [
+            0.5902217933595265,
+            0.7011845590379286
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.6626959027010128,
+          "ci95": [
+            0.609843332787205,
+            0.7164510131481436
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.016748219711444766,
+          "ci95": [
+            -0.04484944805785947,
+            0.01244395100930685
+          ],
+          "n": 400,
+          "frac_negative": 0.1675,
+          "frac_positive": 0.1125,
+          "frac_zero": 0.72,
+          "significant": false
+        }
+      },
+      "part1": {
+        "phi_history_rewritten": {
+          "mean": 0.30112048310714984,
+          "ci95": [
+            0.26820215171794914,
+            0.33471696642317716
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.5526711546930211,
+          "ci95": [
+            0.5003443626999147,
+            0.6077492060033427
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.25155067158587124,
+          "ci95": [
+            -0.2917195937064347,
+            -0.21374963745931305
+          ],
+          "n": 400,
+          "frac_negative": 0.5425,
+          "frac_positive": 0.06,
+          "frac_zero": 0.3975,
+          "significant": true
+        }
+      },
+      "refactored": {
+        "phi_history_rewritten": {
+          "mean": 0.5116247229658396,
+          "ci95": [
+            0.4772921309915413,
+            0.5447509201743099
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.6750332368143479,
+          "ci95": [
+            0.6213107079902491,
+            0.7308018536465406
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.16340851384850832,
+          "ci95": [
+            -0.19403225364711404,
+            -0.13496723895198814
+          ],
+          "n": 400,
+          "frac_negative": 0.3475,
+          "frac_positive": 0.0375,
+          "frac_zero": 0.615,
+          "significant": true
+        }
+      },
+      "fixed": {
+        "phi_history_rewritten": {
+          "mean": 0.5623595400475253,
+          "ci95": [
+            0.5227313540316096,
+            0.6013775719024332
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.6578157599648286,
+          "ci95": [
+            0.6027349143809679,
+            0.7129916715910695
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.09545621991730328,
+          "ci95": [
+            -0.1233838050953971,
+            -0.06838559724541148
+          ],
+          "n": 400,
+          "frac_negative": 0.245,
+          "frac_positive": 0.09,
+          "frac_zero": 0.665,
+          "significant": true
+        }
+      },
+      "wrapped": {
+        "phi_history_rewritten": {
+          "mean": 0.311875,
+          "ci95": [
+            0.295,
+            0.328125
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.5335560668035503,
+          "ci95": [
+            0.492119752358766,
+            0.5757317989262926
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.22168106680355032,
+          "ci95": [
+            -0.2506423052257233,
+            -0.19452168773332768
+          ],
+          "n": 400,
+          "frac_negative": 0.4925,
+          "frac_positive": 0.0,
+          "frac_zero": 0.5075,
+          "significant": true
+        }
+      },
+      "broken": {
+        "phi_history_rewritten": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n": 400
+        },
+        "phi_history_intact": {
+          "mean": 0.2738806465835395,
+          "ci95": [
+            0.24241483508046724,
+            0.307023254058142
+          ],
+          "n": 400
+        },
+        "paired_diff": {
+          "mean_diff": -0.2738806465835395,
+          "ci95": [
+            -0.30722472833582387,
+            -0.24231325228296904
+          ],
+          "n": 400,
+          "frac_negative": 0.755,
+          "frac_positive": 0.0,
+          "frac_zero": 0.245,
+          "significant": true
+        }
+      }
+    },
+    "pooled": {
+      "phi_history_rewritten": {
+        "mean": 0.3888212381850138,
+        "ci95": [
+          0.37233411819384016,
+          0.4053142555591093
+        ],
+        "n": 2400
+      },
+      "phi_history_intact": {
+        "mean": 0.55927546126005,
+        "ci95": [
+          0.5380709033740014,
+          0.5805283680742509
+        ],
+        "n": 2400
+      },
+      "paired_diff": {
+        "mean_diff": -0.17045422307503624,
+        "ci95": [
+          -0.18381099548925112,
+          -0.1573753008814029
+        ],
+        "n": 2400,
+        "frac_negative": 0.425,
+        "frac_positive": 0.05,
+        "frac_zero": 0.525,
+        "significant": true
+      }
+    }
+  },
+  "wall_clock_s": 3.37
+}

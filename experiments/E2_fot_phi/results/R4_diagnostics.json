@@ -1,0 +1,61 @@
+{
+  "run": "R4_diagnostics",
+  "backend": "mock",
+  "config": {
+    "N": 16,
+    "M": 4,
+    "phi_m": 3,
+    "phi_h": 2,
+    "phi_signal": 0.75,
+    "p_trap": 0.6,
+    "p_detect": 0.6,
+    "n_stages": 3,
+    "tokens0": 8.0
+  },
+  "phi_by_node_type": {
+    "b0": {
+      "n": 1651,
+      "mean": 3.641823078400774,
+      "std": 1.1849312613254905
+    },
+    "narrow": {
+      "n": 860,
+      "mean": 1.1874075688127128,
+      "std": 0.46232514141975756
+    },
+    "decoy": {
+      "n": 238,
+      "mean": 3.2441717779422814,
+      "std": 1.2023278607879786
+    },
+    "answered": {
+      "n": 451,
+      "mean": 0.832039911308204,
+      "std": 0.06755589426946
+    }
+  },
+  "phi_action_spread_multi": {
+    "tier": "multi",
+    "n_problems": 40,
+    "n_decisions_sampled": 2549,
+    "phi_m": 6,
+    "phi_h": 2,
+    "phi_level_mean": 1.484968991177924,
+    "phi_std_within_decision": 0.5032092403151885,
+    "frac_decisions_with_zero_spread": 0.38485680659081994,
+    "relativized_phi_std_within_decision": 0.3881071941931363,
+    "frac_phi_exactly_zero": 0.0
+  },
+  "phi_action_spread_single": {
+    "tier": "single",
+    "n_problems": 40,
+    "n_decisions_sampled": 2560,
+    "phi_m": 6,
+    "phi_h": 2,
+    "phi_level_mean": 1.0,
+    "phi_std_within_decision": 0.0,
+    "frac_decisions_with_zero_spread": 1.0,
+    "relativized_phi_std_within_decision": 0.0,
+    "frac_phi_exactly_zero": 0.0
+  }
+}

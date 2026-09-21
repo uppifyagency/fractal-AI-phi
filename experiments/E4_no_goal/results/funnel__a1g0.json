@@ -1,0 +1,952 @@
+{
+  "env": "funnel",
+  "arm": "a1g0",
+  "kind": "fmc",
+  "n": 50,
+  "max_steps": 60,
+  "fuel": 20.0,
+  "config": {
+    "N": 32,
+    "M": 10,
+    "beta": 1.0,
+    "alpha": 1.0,
+    "gamma": 0.0
+  },
+  "wall_seconds": 1.12,
+  "episodes": [
+    {
+      "arm": "a1g0",
+      "seed": 0,
+      "outcome": "goal",
+      "steps": 14,
+      "sim_steps": 4480,
+      "total_reward": -91.0,
+      "mean_b_eff": 1.4965535589372916,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.26666666666666666,
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+    },
+    {
+      "arm": "a1g0",
+      "seed": 1,
+      "outcome": "goal",
+      "steps": 18,
+      "sim_steps": 5760,
+      "total_reward": -127.0,
+      "mean_b_eff": 1.5513171464958593,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.21052631578947367,
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+    },
+    {
+      "arm": "a1g0",
+      "seed": 2,
+      "outcome": "fuel",
+      "steps": 22,
+      "sim_steps": 7040,
+      "total_reward": -165.0,
+      "mean_b_eff": 1.6687545072800243,
+      "mean_phi": NaN,
+      "cells_visited": 18,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.17391304347826086,
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+    },
+    {
+      "arm": "a1g0",
+      "seed": 3,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -111.0,
+      "mean_b_eff": 1.793083122935838,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.23529411764705882
+    },
+    {
+      "arm": "a1g0",
+      "seed": 4,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -110.0,
+      "mean_b_eff": 1.7675348913509112,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.3333333333333333
+    },
+    {
+      "arm": "a1g0",
+      "seed": 5,
+      "outcome": "goal",
+      "steps": 19,
+      "sim_steps": 6080,
+      "total_reward": -104.0,
+      "mean_b_eff": 1.9263630713070456,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.4
+    },
+    {
+      "arm": "a1g0",
+      "seed": 6,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -97.0,
+      "mean_b_eff": 1.438282198786401,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.35294117647058826
+    },
+    {
+      "arm": "a1g0",
+      "seed": 7,
+      "outcome": "goal",
+      "steps": 19,
+      "sim_steps": 6080,
+      "total_reward": -143.0,
+      "mean_b_eff": 1.541877760219097,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.25
+    },
+    {
+      "arm": "a1g0",
+      "seed": 8,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -112.0,
+      "mean_b_eff": 1.5232744649379035,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2777777777777778
+    },
+    {
+      "arm": "a1g0",
+      "seed": 9,
+      "outcome": "goal",
+      "steps": 18,
+      "sim_steps": 5760,
+      "total_reward": -121.0,
+      "mean_b_eff": 1.581410241945132,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.21052631578947367
+    },
+    {
+      "arm": "a1g0",
+      "seed": 10,
+      "outcome": "goal",
+      "steps": 23,
+      "sim_steps": 7360,
+      "total_reward": -157.0,
+      "mean_b_eff": 1.7268148830672845,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.375
+    },
+    {
+      "arm": "a1g0",
+      "seed": 11,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -111.0,
+      "mean_b_eff": 1.5157948321119912,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2222222222222222
+    },
+    {
+      "arm": "a1g0",
+      "seed": 12,
+      "outcome": "goal",
+      "steps": 21,
+      "sim_steps": 6720,
+      "total_reward": -136.0,
+      "mean_b_eff": 1.699438873282455,
+      "mean_phi": NaN,
+      "cells_visited": 17,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.36363636363636365
+    },
+    {
+      "arm": "a1g0",
+      "seed": 13,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -112.0,
+      "mean_b_eff": 1.5235250301362426,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2777777777777778
+    },
+    {
+      "arm": "a1g0",
+      "seed": 14,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -117.0,
+      "mean_b_eff": 1.5204599132405796,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.23529411764705882
+    },
+    {
+      "arm": "a1g0",
+      "seed": 15,
+      "outcome": "goal",
+      "steps": 15,
+      "sim_steps": 4800,
+      "total_reward": -97.0,
+      "mean_b_eff": 1.2047226165442342,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.25
+    },
+    {
+      "arm": "a1g0",
+      "seed": 16,
+      "outcome": "goal",
+      "steps": 19,
+      "sim_steps": 6080,
+      "total_reward": -124.0,
+      "mean_b_eff": 1.6486160077646943,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.3
+    },
+    {
+      "arm": "a1g0",
+      "seed": 17,
+      "outcome": "goal",
+      "steps": 14,
+      "sim_steps": 4480,
+      "total_reward": -91.0,
+      "mean_b_eff": 1.3437048904725508,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.26666666666666666
+    },
+    {
+      "arm": "a1g0",
+      "seed": 18,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -110.0,
+      "mean_b_eff": 1.455207047147695,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2777777777777778
+    },
+    {
+      "arm": "a1g0",
+      "seed": 19,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -99.0,
+      "mean_b_eff": 1.5217664941321032,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.23529411764705882
+    },
+    {
+      "arm": "a1g0",
+      "seed": 20,
+      "outcome": "goal",
+      "steps": 19,
+      "sim_steps": 6080,
+      "total_reward": -124.0,
+      "mean_b_eff": 1.8963482903556577,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.25
+    },
+    {
+      "arm": "a1g0",
+      "seed": 21,
+      "outcome": "goal",
+      "steps": 14,
+      "sim_steps": 4480,
+      "total_reward": -91.0,
+      "mean_b_eff": 1.327470505407298,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.26666666666666666
+    },
+    {
+      "arm": "a1g0",
+      "seed": 22,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -108.0,
+      "mean_b_eff": 1.3257332068916554,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.29411764705882354
+    },
+    {
+      "arm": "a1g0",
+      "seed": 23,
+      "outcome": "goal",
+      "steps": 14,
+      "sim_steps": 4480,
+      "total_reward": -91.0,
+      "mean_b_eff": 1.616061635292256,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.26666666666666666
+    },
+    {
+      "arm": "a1g0",
+      "seed": 24,
+      "outcome": "goal",
+      "steps": 21,
+      "sim_steps": 6720,
+      "total_reward": -140.0,
+      "mean_b_eff": 1.9022620858839883,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2727272727272727
+    },
+    {
+      "arm": "a1g0",
+      "seed": 25,
+      "outcome": "goal",
+      "steps": 20,
+      "sim_steps": 6400,
+      "total_reward": -161.0,
+      "mean_b_eff": 1.7319096457318401,
+      "mean_phi": NaN,
+      "cells_visited": 18,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.19047619047619047
+    },
+    {
+      "arm": "a1g0",
+      "seed": 26,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -99.0,
+      "mean_b_eff": 1.8574126512963942,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.29411764705882354
+    },
+    {
+      "arm": "a1g0",
+      "seed": 27,
+      "outcome": "goal",
+      "steps": 18,
+      "sim_steps": 5760,
+      "total_reward": -122.0,
+      "mean_b_eff": 1.5569468276736123,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.21052631578947367
+    },
+    {
+      "arm": "a1g0",
+      "seed": 28,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -102.0,
+      "mean_b_eff": 1.8693928098991615,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.29411764705882354
+    },
+    {
+      "arm": "a1g0",
+      "seed": 29,
+      "outcome": "goal",
+      "steps": 20,
+      "sim_steps": 6400,
+      "total_reward": -144.0,
+      "mean_b_eff": 1.3287993588246794,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.23809523809523808
+    },
+    {
+      "arm": "a1g0",
+      "seed": 30,
+      "outcome": "fuel",
+      "steps": 22,
+      "sim_steps": 7040,
+      "total_reward": -171.0,
+      "mean_b_eff": 1.472122964196744,
+      "mean_phi": NaN,
+      "cells_visited": 18,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.17391304347826086
+    },
+    {
+      "arm": "a1g0",
+      "seed": 31,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -113.0,
+      "mean_b_eff": 1.6378711609833363,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2777777777777778
+    },
+    {
+      "arm": "a1g0",
+      "seed": 32,
+      "outcome": "goal",
+      "steps": 19,
+      "sim_steps": 6080,
+      "total_reward": -138.0,
+      "mean_b_eff": 1.5081056280520724,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.25
+    },
+    {
+      "arm": "a1g0",
+      "seed": 33,
+      "outcome": "goal",
+      "steps": 14,
+      "sim_steps": 4480,
+      "total_reward": -91.0,
+      "mean_b_eff": 1.5283853912223215,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.26666666666666666
+    },
+    {
+      "arm": "a1g0",
+      "seed": 34,
+      "outcome": "goal",
+      "steps": 19,
+      "sim_steps": 6080,
+      "total_reward": -139.0,
+      "mean_b_eff": 1.7634726471524538,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.3
+    },
+    {
+      "arm": "a1g0",
+      "seed": 35,
+      "outcome": "goal",
+      "steps": 18,
+      "sim_steps": 5760,
+      "total_reward": -135.0,
+      "mean_b_eff": 1.8806543970115952,
+      "mean_phi": NaN,
+      "cells_visited": 17,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.21052631578947367
+    },
+    {
+      "arm": "a1g0",
+      "seed": 36,
+      "outcome": "goal",
+      "steps": 15,
+      "sim_steps": 4800,
+      "total_reward": -99.0,
+      "mean_b_eff": 1.5261528722783428,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.25
+    },
+    {
+      "arm": "a1g0",
+      "seed": 37,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -116.0,
+      "mean_b_eff": 1.6390053258922914,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2222222222222222
+    },
+    {
+      "arm": "a1g0",
+      "seed": 38,
+      "outcome": "goal",
+      "steps": 16,
+      "sim_steps": 5120,
+      "total_reward": -95.0,
+      "mean_b_eff": 1.5294552338891068,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.35294117647058826
+    },
+    {
+      "arm": "a1g0",
+      "seed": 39,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -106.0,
+      "mean_b_eff": 1.6644133759509285,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2777777777777778
+    },
+    {
+      "arm": "a1g0",
+      "seed": 40,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -98.0,
+      "mean_b_eff": 1.4956852984681537,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.3333333333333333
+    },
+    {
+      "arm": "a1g0",
+      "seed": 41,
+      "outcome": "goal",
+      "steps": 15,
+      "sim_steps": 4800,
+      "total_reward": -103.0,
+      "mean_b_eff": 1.4089310840048261,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.25
+    },
+    {
+      "arm": "a1g0",
+      "seed": 42,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -111.0,
+      "mean_b_eff": 1.5339472897524418,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2777777777777778
+    },
+    {
+      "arm": "a1g0",
+      "seed": 43,
+      "outcome": "pit",
+      "steps": 4,
+      "sim_steps": 1280,
+      "total_reward": -54.0,
+      "mean_b_eff": 2.30550388011485,
+      "mean_phi": NaN,
+      "cells_visited": 5,
+      "min_goal_dist": 12,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0
+    },
+    {
+      "arm": "a1g0",
+      "seed": 44,
+      "outcome": "goal",
+      "steps": 15,
+      "sim_steps": 4800,
+      "total_reward": -92.0,
+      "mean_b_eff": 1.4772572508103217,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.3125
+    },
+    {
+      "arm": "a1g0",
+      "seed": 45,
+      "outcome": "goal",
+      "steps": 17,
+      "sim_steps": 5440,
+      "total_reward": -109.0,
+      "mean_b_eff": 1.5231575746489587,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2222222222222222
+    },
+    {
+      "arm": "a1g0",
+      "seed": 46,
+      "outcome": "goal",
+      "steps": 20,
+      "sim_steps": 6400,
+      "total_reward": -152.0,
+      "mean_b_eff": 1.7542206725026088,
+      "mean_phi": NaN,
+      "cells_visited": 16,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.19047619047619047
+    },
+    {
+      "arm": "a1g0",
+      "seed": 47,
+      "outcome": "goal",
+      "steps": 18,
+      "sim_steps": 5760,
+      "total_reward": -111.0,
+      "mean_b_eff": 1.609535753385836,
+      "mean_phi": NaN,
+      "cells_visited": 15,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.21052631578947367
+    },
+    {
+      "arm": "a1g0",
+      "seed": 48,
+      "outcome": "goal",
+      "steps": 21,
+      "sim_steps": 6720,
+      "total_reward": -158.0,
+      "mean_b_eff": 1.634675276438782,
+      "mean_phi": NaN,
+      "cells_visited": 17,
+      "min_goal_dist": 0,
+      "final_goal_dist": 0,
+      "frac_steps_in_goal_region": 0.2727272727272727
+    },
+    {
+      "arm": "a1g0",
+      "seed": 49,
+      "outcome": "pit",
+      "steps": 4,
+      "sim_steps": 1280,
+      "total_reward": -54.0,
+      "mean_b_eff": 2.0230405055298912,
+      "mean_phi": NaN,
+      "cells_visited": 5,
+      "min_goal_dist": 12,
+      "final_goal_dist": 12,
+      "frac_steps_in_goal_region": 0.0
+    }
+  ]
+}

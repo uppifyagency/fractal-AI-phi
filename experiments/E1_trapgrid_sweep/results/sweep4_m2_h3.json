@@ -1,0 +1,688 @@
+{
+  "label": "phi_m=2 phi_h=3",
+  "config": {
+    "gamma": 1.0,
+    "phi_m": 2,
+    "phi_h": 3,
+    "N": 32,
+    "M": 10,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "phi_every": 1,
+    "fuel": 24.0,
+    "max_steps": 40
+  },
+  "n": 15,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "rates": {
+    "goal": {
+      "mean": 0.4666666666666667,
+      "lo": 0.2,
+      "hi": 0.7333333333333333,
+      "n": 15
+    },
+    "trap": {
+      "mean": 0.13333333333333333,
+      "lo": 0.0,
+      "hi": 0.3333333333333333,
+      "n": 15
+    },
+    "fuel": {
+      "mean": 0.4,
+      "lo": 0.13333333333333333,
+      "hi": 0.6666666666666666,
+      "n": 15
+    },
+    "timeout": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "n": 15
+    }
+  },
+  "counts": {
+    "goal": 7,
+    "trap": 2,
+    "fuel": 6,
+    "timeout": 0
+  },
+  "steps": {
+    "mean": 24.733333333333334,
+    "lo": 20.666666666666668,
+    "hi": 27.866666666666667,
+    "n": 15
+  },
+  "sim_steps_total": {
+    "mean": 55402.666666666664,
+    "lo": 46293.333333333336,
+    "hi": 62421.333333333336,
+    "n": 15
+  },
+  "sim_steps_per_decision": {
+    "mean": 2240.0,
+    "min": 2240,
+    "max": 2240
+  },
+  "mean_b_eff": {
+    "mean": 2.190787316998507,
+    "lo": 2.0745929724842127,
+    "hi": 2.3588339108790586,
+    "n": 15
+  },
+  "mean_ess": {
+    "mean": 17.283223081941433,
+    "lo": 15.743048945211815,
+    "hi": 18.69139150443917,
+    "n": 15
+  },
+  "mean_phi": {
+    "mean": 1.1095205396674503,
+    "lo": 1.040254124838199,
+    "hi": 1.185315345713175,
+    "n": 15
+  },
+  "final_goal_dist": {
+    "mean": 2.0,
+    "lo": 0.8,
+    "hi": 3.466666666666667,
+    "n": 15
+  },
+  "timeout_near_goal_le2": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 15
+  },
+  "timeout_near_goal_le1": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 15
+  },
+  "episodes": [
+    {
+      "outcome": "fuel",
+      "steps": 29,
+      "total_reward": -122.0,
+      "sim_steps": 64960,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.2637095315479794,
+      "mean_phi": 0.9154094827586207,
+      "mean_ess": 19.11130912155892,
+      "mean_dead_walkers": 11.758620689655173,
+      "final_x": 11,
+      "final_y": 2,
+      "final_fuel": 0.0,
+      "goal_dist": 2,
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          2
+        ]
+      ]
+    },
+    {
+      "outcome": "trap",
+      "steps": 26,
+      "total_reward": -126.0,
+      "sim_steps": 58240,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.126589465778747,
+      "mean_phi": 1.0533052884615384,
+      "mean_ess": 17.86058221846074,
+      "mean_dead_walkers": 8.73076923076923,
+      "final_x": 10,
+      "final_y": 0,
+      "final_fuel": 1.0,
+      "goal_dist": 1,
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "outcome": "goal",
+      "steps": 23,
+      "total_reward": -151.0,
+      "sim_steps": 51520,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 1.948080815931552,
+      "mean_phi": 1.1440217391304346,
+      "mean_ess": 15.746626641060812,
+      "mean_dead_walkers": 6.173913043478261,
+      "final_x": 11,
+      "final_y": 0,
+      "final_fuel": 3.0,
+      "goal_dist": 0,
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "outcome": "goal",
+      "steps": 31,
+      "total_reward": -147.0,
+      "sim_steps": 69440,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.1140992735104374,
+      "mean_phi": 1.0699092741935485,
+      "mean_ess": 18.64137083511252,
+      "mean_dead_walkers": 10.419354838709678,
+      "final_x": 11,
+      "final_y": 0,
+      "final_fuel": 1.0,
+      "goal_dist": 0,
+      "trajectory": []
+    },
+    {
+      "outcome": "goal",
+      "steps": 22,
+      "total_reward": -158.0,
+      "sim_steps": 49280,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 1.9993026619698582,
+      "mean_phi": 1.303622159090909,
+      "mean_ess": 16.4883863349398,
+      "mean_dead_walkers": 7.454545454545454,
+      "final_x": 11,
+      "final_y": 0,
+      "final_fuel": 3.5,
+      "goal_dist": 0,
+      "trajectory": []
+    },
+    {
+      "outcome": "goal",
+      "steps": 19,
+      "total_reward": -115.0,
+      "sim_steps": 42560,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 1.9591260785683924,
+      "mean_phi": 1.3300986842105267,
+      "mean_ess": 12.4955793181083,
+      "mean_dead_walkers": 1.368421052631579,
+      "final_x": 11,
+      "final_y": 0,
+      "final_fuel": 7.0,
+      "goal_dist": 0,
+      "trajectory": []
+    },
+    {
+      "outcome": "goal",
+      "steps": 19,
+      "total_reward": -131.0,
+      "sim_steps": 42560,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 1.9514549660664813,
+      "mean_phi": 1.3797697368421051,
+      "mean_ess": 12.13552810936303,
+      "mean_dead_walkers": 0.42105263157894735,
+      "final_x": 11,
+      "final_y": 0,
+      "final_fuel": 7.0,
+      "goal_dist": 0,
+      "trajectory": []
+    },
+    {
+      "outcome": "goal",
+      "steps": 24,
+      "total_reward": -141.0,
+      "sim_steps": 53760,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.125194452087341,
+      "mean_phi": 1.3014322916666667,
+      "mean_ess": 14.621281869683303,
+      "mean_dead_walkers": 4.666666666666667,
+      "final_x": 11,
+      "final_y": 0,
+      "final_fuel": 4.5,
+      "goal_dist": 0,
+      "trajectory": []
+    },
+    {
+      "outcome": "fuel",
+      "steps": 30,
+      "total_reward": -162.0,
+      "sim_steps": 67200,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.1590627562722715,
+      "mean_phi": 0.9624479166666667,
+      "mean_ess": 20.651955126554768,
+      "mean_dead_walkers": 12.5,
+      "final_x": 11,
+      "final_y": 3,
+      "final_fuel": 0.0,
+      "goal_dist": 3,
+      "trajectory": []
+    },
+    {
+      "outcome": "trap",
+      "steps": 2,
+      "total_reward": -21.0,
+      "sim_steps": 4480,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 3.2055688719398674,
+      "mean_phi": 1.11953125,
+      "mean_ess": 12.550923358901972,
+      "mean_dead_walkers": 0.0,
+      "final_x": 1,
+      "final_y": 0,
+      "final_fuel": 22.5,
+      "goal_dist": 10,
+      "trajectory": []
+    },
+    {
+      "outcome": "fuel",
+      "steps": 29,
+      "total_reward": -182.0,
+      "sim_steps": 64960,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.2032394498509804,
+      "mean_phi": 0.9765625000000001,
+      "mean_ess": 19.26269905939881,
+      "mean_dead_walkers": 10.586206896551724,
+      "final_x": 10,
+      "final_y": 3,
+      "final_fuel": 0.0,
+      "goal_dist": 4,
+      "trajectory": []
+    },
+    {
+      "outcome": "fuel",
+      "steps": 32,
+      "total_reward": -146.0,
+      "sim_steps": 71680,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.2566095348515125,
+      "mean_phi": 0.99658203125,
+      "mean_ess": 20.677239477958985,
+      "mean_dead_walkers": 11.28125,
+      "final_x": 8,
+      "final_y": 1,
+      "final_fuel": -0.5,
+      "goal_dist": 4,
+      "trajectory": []
+    },
+    {
+      "outcome": "fuel",
+      "steps": 28,
+      "total_reward": -183.0,
+      "sim_steps": 62720,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.110773736051408,
+      "mean_phi": 0.9671875,
+      "mean_ess": 20.04314142587858,
+      "mean_dead_walkers": 12.214285714285714,
+      "final_x": 10,
+      "final_y": 3,
+      "final_fuel": -0.5,
+      "goal_dist": 4,
+      "trajectory": []
+    },
+    {
+      "outcome": "goal",
+      "steps": 27,
+      "total_reward": -165.0,
+      "sim_steps": 60480,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.1948465367367964,
+      "mean_phi": 1.1027199074074074,
+      "mean_ess": 19.98520058108229,
+      "mean_dead_walkers": 11.222222222222221,
+      "final_x": 11,
+      "final_y": 0,
+      "final_fuel": 1.0,
+      "goal_dist": 0,
+      "trajectory": []
+    },
+    {
+      "outcome": "fuel",
+      "steps": 30,
+      "total_reward": -169.0,
+      "sim_steps": 67200,
+      "sim_steps_per_decision": 2240,
+      "mean_b_eff": 2.244151623813979,
+      "mean_phi": 1.0202083333333334,
+      "mean_ess": 18.97652275105863,
+      "mean_dead_walkers": 10.666666666666666,
+      "final_x": 11,
+      "final_y": 2,
+      "final_fuel": -0.5,
+      "goal_dist": 2,
+      "trajectory": []
+    }
+  ],
+  "wall_clock_s": 1.7582588195800781
+}
