@@ -2,6 +2,10 @@
 
 > Adding the missing factor to Fractal Monte Carlo: **the entropy of futures
 > reachable from a state**, not the dispersion of walkers in a swarm.
+>
+> **Outcome: the factor as proposed does not survive ablation.** What works is a
+> free binary viability constraint, not the graded causal cone. See
+> [`docs/SYNTHESIS.md`](docs/SYNTHESIS.md).
 
 Canonical FMC weights each walker by $\mathrm{VR} = \widehat{R}^{\alpha}\widehat{D}^{\beta}$.
 The $D$ term measures how far apart the *hypotheses* are. The causal entropic
@@ -34,26 +38,44 @@ Raising $\beta$ **lowers** the branching factor. A term that preserved options
 would raise it. Past the anti-collapse threshold, $\beta$ is one more selector:
 it rewards the isolated walker, not the state with a future.
 
-## Pilot result
+## Result: the hypothesis did not survive its own ablations
 
-`TrapGrid`: a cliff-walk where the short route to the goal runs along a row of
-absorbing traps and the safe route costs two extra moves out of a finite fuel
-budget. 10 seeds, $N=32$, $M=10$, $\alpha=\beta=1$:
+The layer works on TrapGrid. The proposed mechanism does not. Full detail in
+[`docs/SYNTHESIS.md`](docs/SYNTHESIS.md); the decisive rows, 30 paired seeds at
+matched measured budget:
 
-| arm | goal | trap | out of fuel | mean steps |
-|---|---|---|---|---|
-| $\gamma = 0$ (canonical FMC) | 0 | **10** | 0 | 1.4 |
-| $\gamma = 1$ (Phi on) | **6** | **0** | 4 | 24.8 |
+| arm | measured sim/decision | goal rate |
+|---|---|---|
+| canonical FMC | 3290 | 0.00 [0.00, 0.00] |
+| $\Phi$ as specified (cone, survival-weighted) | 3291 | 0.53 [0.37, 0.70] |
+| the same $\Phi$ vector **permuted across walkers** | 3314 | 0.63 [0.47, 0.80] |
+| $\Phi$ replaced by uniform **noise** | 3209 | 0.57 [0.40, 0.73] |
+| $\Phi = \mathbb{1}\{\text{viable}\}$, **zero extra simulator calls** | 3290 | **0.97 [0.90, 1.00]** |
 
-Pure goal-seeking walks off the cliff on the first move. With $\Phi$ on, the
-swarm climbs to the safe corridor, crosses it, and comes down at the far end.
-Trap deaths go to zero, traded for fuel exhaustion. That is the predicted trade.
+Permuting $\Phi$ across walkers destroys every correspondence between a walker
+and its own future and the goal rate does not move (paired diff $-0.10$
+[$-0.30$, $+0.10$]). A binary "is this walker standing on a dead state"
+indicator, needing no rollout, no perplexity and no survival weighting, reaches
+30/30 at the budget the full layer spends to reach 16/30.
+
+**The causal cone is not doing the work. A hard viability constraint is, and
+canonical FMC simply omits it.**
+
+Two findings survive the collapse:
+
+- An option-preserving planner is only as safe as the irreversibilities its
+  $\Phi$ can see, and it actively buys the ones it cannot: in E3 the layer cut
+  the visible trap 21x while raising force-push 2.8x ($+0.085$ [$+0.051$,
+  $+0.120$], $n=100$).
+- A goal-less agent ($\alpha = 0$) reaches the goal exactly as often as random,
+  0/50 on two maps, so the layer leaks no reward information through the
+  geometry.
 
 Reproduce:
 
 ```bash
 uv sync && uv run pytest -q          # 16/16
-uv run python -m experiments.E1_trapgrid_sweep.scripts.run_e1
+uv run python experiments/E5_ablation/scripts/run_e5.py
 ```
 
 ## Layout
@@ -71,8 +93,14 @@ tests/                    16 tests, including exact parity with the reference
 
 ## Status
 
-Foundation done and tested. The five experiments are specified and
-pre-registered, not yet run. Read `experiments/README.md` first.
+E1 to E5 run, each reviewed adversarially; four of the five were sent back and
+re-run. E6 is pre-registered with its instrument built and deliberately not run:
+the power analysis needs 169 episodes per arm for the direct replication, and the
+hand-validation showed the cone term is inert on the repository encoding, which
+would guarantee a meaningless null.
+
+Read [`docs/SYNTHESIS.md`](docs/SYNTHESIS.md) first, then
+[`experiments/README.md`](experiments/README.md).
 
 ## Credits
 
